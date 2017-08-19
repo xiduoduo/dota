@@ -1,0 +1,51 @@
+/*
+* @Author: dhl
+* @Date:   2016-12-26 17:02:34
+* @Last Modified by:   dhl
+* @Last Modified time: 2016-12-26 17:39:39
+*/
+
+
+/* CSS��ʼ�� */
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p,i,strong,em {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #999999;
+    font-family: "����";
+    list-style: none;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+    color: #999999;
+}
+a:hover {
+    color: #000;
+}
+i,s,b,strong,em {
+    text-decoration: none;
+    font-style: normal;
+}
+input,img {
+    vertical-align: bottom;
+    border: 0 none;
+    outline-style: none;
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    zoom: 1;
+}
+.w {
+    width: 982px;
+    margin: 0 auto;
+}

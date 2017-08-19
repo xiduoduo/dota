@@ -1,0 +1,91 @@
+.body{
+    height:920px;
+    background: url("../images/bg_83.jpg") no-repeat center;
+}
+.header{
+    height:200px;
+    position: relative;
+}
+.header .header-logo{
+    width:192px;
+    height:200px;
+    background: url("../images/dota_84.png") no-repeat 0 48px;
+}
+.header .header-logo a{
+    width:150px;
+    height:140px;
+    display: block;
+    margin-top: 45px;
+}
+.header .header-right{
+    width:790px;
+    height:200px;
+}
+.header .header-right .service{
+    height:136px;
+}
+.header .header-right .service-center{
+    margin-top: 50px;
+    margin-left: -8px;
+    width: 323px;
+    height: 66px;
+    background: url("../images/service_84.png") no-repeat;
+}
+.header .header-right .service ul{
+    margin-top: 79px;
+}
+.header .header-right .service li{
+    float: left;
+    margin-left: 30px;
+}
+.header .header-right .service li a{
+    font-size: 17px;
+    color: #7B7E7E;
+}
+.header .header-right .service .current a{
+    color: #ff6e19;
+}
+.header .header-right .service li a:hover{
+    color: #ff6e19;
+}
+.header .header-right .search{
+    width:790px;
+    height:36px;
+}
+.header .header-right .search input{
+    width:550px;
+    height:36px;
+    padding-left: 10px;
+}
+.header .header-right .search .search-answer{
+    width:110px;
+    height:36px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #F16236;
+    cursor: pointer;
+}
+.header .header-right .search .question{
+    width:110px;
+    height:36px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #13A7A9;
+    cursor: pointer;
+}
+.header .header-login {
+    position: absolute;
+    top:16px;
+    right:0px;
+    width:128px;
+    height:26px;
+    border:1px solid #ffffff;
+    cursor: pointer;
+    text-align: center;
+    line-height: 26px;
+    font-size:14px;
+    color: #CCCCCC;
+}
+.header .header-login span a:hover{
+    color: #999999;
+}

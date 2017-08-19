@@ -1,0 +1,273 @@
+/*顶部导航及背景视频 start*/
+/*背景视频start*/
+.wrap1 {
+    height: 1183px;
+    background-color: #050E13;
+}
+.wrap1 .video-bg {
+    width: 100%;
+    /*height: 100%;*/
+}
+.wrap1 .bx {
+    height: 129px;
+}
+.wrap1 .bx .logo-dark {
+    margin-top:22px;
+    margin-left: 11px;
+}
+/*顶部导航*/
+.bx .head-nav li {
+    margin-top: 38px;
+    margin-left: 76px;
+    float: left;
+    text-align: center;
+}
+.head-nav li span   {
+    display: block;
+}
+.head-nav li .nav-span1{
+    height: 24px;
+    line-height: 24px;
+    font-size: 18px;
+    color: #ccc;
+}
+.head-nav li .nav-span2{
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #777;
+}
+.head-nav li.nav-service {
+    margin-right: 20px;
+}
+/*勇士令状*/
+.international .hero-page {
+    width: 220px;
+    height: 110px;
+    background:  url("../images/cover-international.png") 0 0 no-repeat;
+    top: 250px;
+    left: 75px;
+}
+/*了解更多*/
+.international .know-more {
+    width: 220px;
+    height: 110px;
+    top: 250px;
+    right: 95px;
+}
+.international .know-more .summer-line {
+    height: 70px;
+    background:  url("../images/cover-xiyatu.png") -5px 0 no-repeat;
+}
+.international .know-more a {
+    display: block;
+    width: 120px;
+    height: 23px;
+    margin-left: 51px;
+    margin-top: 11px;
+    background-image:  url("../images/cover-more.png");
+    background-position: -5px -1px;
+    background-repeat:no-repeat;
+}
+/*middle-nav*/
+.m-nav {
+    left:537px;
+    top: 782px;
+}
+.m-nav .middle-nav li{
+    float: left;
+    color: #518DA4;
+    font-family:"microsoft yahei";
+}
+.m-nav .middle-nav li.slash {
+    margin-top: 3px;
+    font-size: 12px;
+    padding: 0 30px 0 33px;
+}
+.middle-nav li a {
+    font-size: 16px;
+    color: #518da4;
+}
+/*match*/
+.match {
+    width: 1380px;
+    padding-left: 20px;
+    margin-top: 850px;
+    background: #050E13 url("../images/middleImg.png") center no-repeat;
+}
+.match li {
+    width: 385px;
+    float: left;
+}
+.match li.match-m {
+    padding: 0 99px;
+}
+.match li h4 {
+    text-align: center;
+    line-height: 60px;
+    background-color: #0d252d;
+    color: #627e87;
+    font-size: 20px;
+}
+
+/*顶部导航及背景视频 end*/
+/*main start*/
+.wrap2 {
+    background:  url("../images/middleImg02.jpg") 0 -5px repeat;
+}
+.wrap2 .bx{
+    height: 698px;
+}
+.wrap2 .newGamer a,
+.wrap2 .oldGamer a {
+    display: inline-block;
+    width: 450px;
+    height: 245px;
+    opacity: 0.5;
+}
+.wrap2 .newGamer a{
+    background:  url("../images/newGamer.png") 0 0 no-repeat;
+}
+.wrap2 .newGamer {
+    left: 0;
+    top: 220px;
+}
+.wrap2 .oldGamer a{
+    background:  url("../images/oldGamer.png") 0 0 no-repeat;
+}
+.wrap2 .oldGamer {
+    right: 0;
+    top: 220px;
+}
+.wrap2 .iceGirl,
+.wrap2 .commander {
+    width: 1400px;
+    height: 698px;
+    opacity:0;
+}
+.wrap2 .iceGirl {
+    opacity: 1;
+    left: 120px;
+}
+.wrap2 .iceGirl {
+    background:  url("../images/icegirl.png") center no-repeat;
+}
+.wrap2 .commander {
+    background:  url("../images/commander.png") center no-repeat;
+}
+/*main end*/
+/*share start*/
+.share {
+    height: 100px;
+    background-color: #111111;
+}
+.share .bx {
+    margin:0 auto;
+}
+.share ul {
+    width: 1360px;
+    height: 45px;
+    margin:0px 20px 20px 20px;
+    padding-top: 35px;
+}
+.share ul li.left,
+.share ul li.middle {
+    padding-right: 32px;
+}
+.share ul li.blankSpace {
+    width: 180px;
+    height: 10px;
+}
+.share li.left a,
+.share li.middle a{
+    display: block;
+    color: #999;
+    font-size: 16px;
+    height: 30px;
+    line-height: 26px;
+    padding-left: 30px;
+}
+.share li.middle a {
+    padding-left: 40px;
+}
+.share li a.leftIcon1 {
+    background: url("../images/icon-share.png") 0 0 no-repeat;
+}
+.share li a.leftIcon2 {
+    background: url("../images/icon-share.png") 0 -100px no-repeat;
+}
+.share li a.leftIcon3 {
+    background: url("../images/icon-share.png") 0 -200px no-repeat;
+}
+.share li a.middleIcon1 {
+    background: url("../images/icon-share.png") 0 -300px no-repeat;
+}
+.share li a.middleIcon2 {
+    background: url("../images/icon-share.png") 0 -400px no-repeat;
+}
+.share li a.middleIcon3 {
+    background: url("../images/icon-share.png") 0 -500px no-repeat;
+}
+.share li a.rightIcon {
+    display: block;
+    width: 254px;
+    height: 45px;
+    background: url("../images/download.png") 0 0 no-repeat;
+    right: 0;
+    top: -10px;
+}
+.share .weixin i {
+    width: 140px;
+    height: 149px;
+    background:  url("../images/wechat.png") center no-repeat;
+    top:-149px;
+    right: -13px;
+    display: none;
+}
+/*share end*/
+/*bottom start*/
+.bottom {
+    height: 160px;
+    background-color: #000000;
+}
+.bottom .bx {
+    margin:0 auto;
+    color: #999;
+    text-align: center;
+    font-size: 12px;
+}
+.bottom ul {
+    margin:0 auto;
+    padding-top: 40px;
+    padding-left: 240px;
+}
+.bottom li {
+    float: left;
+}
+.bottom li.perfectWorld {
+    width: 94px;
+    height: 33px;
+    padding: 0 20px;
+}
+.bottom li.perfectWorld a {
+    display: block;
+    height: 33px;
+    background: url("../images/logo-wanmei.png") 0 0 no-repeat;
+}
+.bottom li.valve {
+    width: 99px;
+    height: 28px;
+    padding: 0 20px;
+}
+.bottom li.valve a {
+    display: block;
+    height: 28px;
+    background: url("../images/logo-valve.png") 0 0 no-repeat;
+}
+.bottom .bx p {
+    color: #333;
+    padding-top: 15px;
+}
+
+
+/*bottom end*/

@@ -1,0 +1,572 @@
+/* 初始化样式 */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+.clearfloat:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+img {
+    display: block;
+}
+
+.bx {
+    width: 1016px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: '\5FAE\8F6F\96C5\9ED1', '\9ED1\4F53' !important;
+    line-height: 1.2;
+    color: #a3a3a3;
+    min-width: 1200px;
+    background: #000;
+}
+
+body, button, input, select, textarea {
+    font: 12px/1.5 tohoma, arial, \5b8b\4f53;
+}
+
+/*版心1180*/
+.bx {
+    width: 1180px;
+}
+
+/***************dotaPk  页头  ***********/
+/*dotaPK的头部*/
+.dotapkheader {
+    height: 80px;
+    font:16px/16px 'Microsoft YaHei';
+    background-color: #000;
+}
+
+.dotapklog, .dotapknav {
+    float: left;
+}
+
+/*dota的logo*/
+.dotapklog {
+    height: 43px;
+    width: 265px;
+    margin-top: 17px;
+    font-size: 0px;
+    background: url(../images/dota2.home.log.png) no-repeat center;
+}
+
+.dotapklog a {
+    display: block;
+    height: 43px;
+    width: 265px;
+}
+
+/*dota的导航栏*/
+.dotapknav {
+    height: 80px;
+    width: 589px;
+    margin-left: 19px;
+    color: #827C79;
+    /*background-color: yellowgreen;*/
+}
+
+.dotapknav .clearfloat > li {
+    float: left;
+    height: 80px;
+    width: 84px;
+    text-align: center;
+}
+
+.dotapknav .clearfloat > li p {
+    font-size: 16px;
+    padding-top: 17px;
+    text-align: center;
+
+}
+
+.dotapknav .clearfloat > li span {
+    font-size: 9px;
+}
+
+.dotapknav .clearfloat > li ul {
+    height: 238px;
+    width: 82px;
+    border-left: 1px solid #303c39;
+    background-color:rgba(0,0,0,.9);
+    margin-top: 10px;
+    line-height: 33px;
+    font-size: 15px;
+    display: none;
+    position:absolute;
+}
+.dotapknav .clearfloat > li ul.last{
+    border-right: 1px solid #303c39;
+}
+
+.dotapknav .clearfloat > li  a {
+    color: #827c79;
+}
+
+.dotapknav .clearfloat > li  a:hover {
+    color: #00a5c6;
+}
+
+/*dota的头部右侧登录*/
+.dotapkdl {
+    float: right;
+    height: 55px;
+    margin-top: 12px;
+}
+
+
+.dotapkdl .dotapkdltubiao{
+    float:left;
+    margin-top:4px;
+    margin-right:10px;
+    background:#101215 url(../images/icons.png) no-repeat 13px -448px;
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    border:1px solid #262323;
+}
+
+.dotapkdl .dotapkdlwenzi{
+    float:right;
+    margin-top:7px;
+}
+.dotapkdl p {
+    font-size: 18px;
+    margin-bottom: 6px;
+    color: #fff;
+}
+.dotapkdl .dotapkdlwenzi span{
+    color:#898989;
+
+    font-size: 12px;
+}
+.dotapkdl p a {
+    color: #00b7f4;
+    text-decoration:underline;
+
+}
+
+/*中国区公开预选赛*/
+.zgqgkyxs {
+    height: 997px;
+    width: 100%;
+    background: url(../images/top_bg.jpg) no-repeat center;
+}
+
+.zgqgkyxs .bx .headercontent {
+    /*height:740px;*/
+    padding-top: 529px;
+    width: 760px;
+    float: left;
+    margin-left: 181px;
+    margin-top: 34px;
+    background: url(../images/ti.png) no-repeat center;
+}
+
+.zgqgkyxs .bx .headercontent h2 {
+    height: 175px;
+    width: 737px;
+    background: url(../images/title.png);
+}
+
+.zgqgkyxs .bx .headercontent p {
+    line-height: 30px;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 31px;
+
+}
+
+.zgqgkyxs .bx .headercontent .dotapkheaderleft {
+    background: url(../images/btn.png) no-repeat, center;
+    height: 72px;
+    width: 242px;
+    float: left;
+    text-align: center;
+    line-height: 72px;
+    float: left;
+    color: white;
+    margin-left: 92px;
+    font-size: 18px;
+}
+
+.zgqgkyxs .bx .headercontent .dotapkheaderleft span {
+    background: url(../images/pvp.png) no-repeat left;
+    height: 46px;
+    width: 47px;
+    display: block;
+    float: left;
+    margin-left: 14px;
+    margin-top: 16px;
+
+}
+
+.zgqgkyxs .bx .headercontent .dotapkheaderright {
+    background: url(../images/btn_disable.png);
+    height: 72px;
+    width: 242px;
+    float: right;
+    text-align: center;
+    line-height: 72px;
+    float: left;
+    color: white;
+    margin-left: 63px;
+    font-size: 18px;
+}
+
+/*---------定位的盒子有跳楼效果------------*/
+
+#dingweihezi {
+    height: 572px;
+    width: 151px;
+    position: fixed;
+    /*background-color: yellow;*/
+    top: 90px;
+    right: 26px;
+
+}
+
+#dingweihezi .com {
+    height: 100px;
+    width: 150px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#dingweihezi .first {
+    background: url(../images/bg-sidebar.png) no-repeat 0px 0px;
+}
+
+#dingweihezi .sec {
+    background: url(../images/bg-sidebar.png) no-repeat 0px -105px;
+}
+
+#dingweihezi .third {
+    background: url(../images/bg-sidebar.png) no-repeat 0px -211px;
+}
+
+#dingweihezi .four {
+    background: url(../images/bg-sidebar.png) no-repeat 0px -316px;
+    margin-bottom: 13px;
+}
+
+
+.current{
+    background-position-x: 50%;
+}
+
+
+#dingweihezi .five {
+    height: 90px;
+    background: url(../images/bg-sidebar.png) no-repeat 0px -433px;
+}
+#dingweihezi .five a{
+    display: block;
+    height:90px;
+}
+
+#dingweihezi #dingweitop {
+    height: 49px;
+    width: 150px;
+    display: block;
+    background: url(../images/bg-sidebar.png) no-repeat 0px -523px;
+}
+
+
+/******************* dota 主体  ****************/
+/**报名流程**/
+.baominglc {
+    background-color: #081F27;
+    height: 94px;
+    padding-top: 44px;
+    /*color:#f6e4c5;*/
+    /*font-size: 40px;*/
+    border-top: 2px solid #10212b;
+    border-bottom: 2px solid #10212b;
+    /*line-height: 134px;*/
+    /*text-align:center;*/
+}
+
+.baominglc .bmlc {
+    height: 46px;
+    width: 188px;
+
+    margin: 0 auto;
+    background: url(../images/join_text.png);
+}
+
+/*--1---如何创建战队*/
+.rhcjzd {
+    height: 740px;
+    width: 100%;
+
+    background: url('../images/join_bg1.jpg') no-repeat center;
+}
+
+.rhcjzd .rhcjzdshang{
+    height:424px;
+    width:786px;
+    border:7px solid #353536;
+    float:left;
+    position:relative;
+    overflow: hidden;
+    margin-top:178px;
+    margin-left:191px;
+}
+.rhcjzd .rhcjzdshang ul{
+    position: absolute;
+    top:0;
+    left:0;
+    width:3144px;
+}
+
+.rhcjzd .rhcjzdshang ul li{
+    float:left;
+}
+
+.rhcjzd .rhcjzdxia{
+    height:60px;
+    width:804px;
+    float:left;
+    margin-top:2px;
+    margin-left:191px;
+    background: url(../images/btn-sprites-info01.png) no-repeat;
+}
+
+.rhcjzd .rhcjzdxia ol li{
+    height:60px;
+    width:201px;
+    float:left;
+    cursor: pointer;
+}
+
+
+
+
+
+/*--2--如何加入战队*/
+.rhjrzd {
+    height: 658px;
+    width: 100%;
+    background: url(../images/join_bg2.jpg) no-repeat center;
+}
+.rhjrzd .rhjrzdshang{
+    height:424px;
+    width:786px;
+    background-color: pink;
+    border:8px solid #353536;
+    float:left;
+    margin-top:125px;
+    margin-left:187px;
+    overflow: hidden;
+}
+.rhjrzd .rhjrzdshang{
+    position:relative;
+}
+.rhjrzd .rhjrzdshang ul{
+    position: absolute;
+    top:0;
+    left:0;
+    width:1572px;
+}
+.rhjrzd .rhjrzdshang ul li{
+    float:left;
+
+}
+
+
+.rhjrzd .rhjrzdxia{
+    height:60px;
+    width:800px;
+    background-color: pink;
+    float:left;
+    background:url(../images/btn-sprites-info02.png)no-repeat;
+    margin-top:4px;
+    margin-left:188px;
+}
+.rhjrzd .rhjrzdxia ol li{
+    cursor: pointer;
+    height:60px;
+    width:400px;
+    float:left;
+}
+
+
+
+
+
+
+
+
+
+/*--3---如何报名公开预选赛1*/
+.rhbmgkyxc {
+    height: 687px;
+    width: 100%;
+    background: url(../images/join_bg3.jpg) no-repeat center;
+}
+
+.rhbmgkyxc .rhbmgkyxcshang{
+    height:424px;
+    width:786px;
+    overflow:hidden;
+    position: relative;
+    border:7px solid #353536;
+    float:left;
+    margin-top:137px;
+    margin-left:191px;
+}
+
+.rhbmgkyxc .rhbmgkyxcshang ul{
+    position: absolute;
+    top:0;
+    left:0;
+    width:2358px;
+}
+
+.rhbmgkyxc .rhbmgkyxcshang ul li{
+    float:left;
+
+}
+
+
+.rhbmgkyxc .rhbmgkyxcxia{
+    height:60px;
+    width:801px;
+    background-color: pink;
+    float:left;
+    background:url(../images/btn-sprites-info03.png)no-repeat,center;
+    margin-top:5px;
+    margin-left:191px;
+}
+
+.rhbmgkyxc .rhbmgkyxcxia ol li{
+    height:60px;
+    width:267px;
+    cursor: pointer;
+    float:left;
+}
+
+
+
+
+/*--4---如何报名公开预选赛2*/
+
+.howtojoin {
+    height: 1126px;
+    width: 100%;
+    background: url(../images/join_bg4.jpg) no-repeat center;
+}
+
+.howtojoin .howtojoincontent{
+    height:879px;
+    width:787px;
+    /*background:yellow;*/
+    float:left;
+    margin-top:109px;
+    margin-left:191px;
+    font-size: 14px;
+    line-height: 1.6;
+    position: relative;
+}
+.howtojoin .howtojoincontent .howtojoincontenterweima{
+    position:absolute;
+    top:428px;
+    right:284px;
+    height:147px;
+    width:150px;
+    border:5px solid #403D4D;
+    background: url(../images/qrcode.png);
+}
+.howtojoin .howtojoincontent ul{
+    padding-top:40px;
+}
+.howtojoin .howtojoincontent li{
+    padding-bottom: 22px;
+}
+
+.howtojoin .howtojoincontent ul li>span{
+    float:left;
+    margin-right:10px;
+}
+
+.howtojoin .howtojoincontent ul li p{
+    float:left;
+}
+
+.howtojoin .howtojoincontent .addcolor{
+    color:#179aa2;
+}
+
+
+
+
+
+    /**************  dota 页尾   ***********/
+.dotapkfooter {
+    height:160px;
+}
+
+.dotapkfooter .dotapkfootershang{
+    padding-top: 42px;
+    color:#959595;
+}
+
+.dotapkfooter .dotapkfootershang p{
+    float:left;
+    margin-left:20px;
+}
+.dotapkfooter .dotapkfooteryou1{
+    float:left;
+    margin-left:121px;
+    cursor: pointer;
+    background:url(../images/logo-wanmei.png) no-repeat;
+    height:38px;
+    width:94px;
+}
+
+.dotapkfooter .dotapkfooteryou2{
+    float:left;
+    margin-left: 43px;
+    cursor: pointer;
+    height:38px;
+    width:99px;
+    background:url(../images/logo-valve.png) no-repeat;
+}
+
+
+.dotapkfooter .dotapkfooterxia{
+    text-align: center;
+    padding-top: 17px;
+    line-height: 1.5;
+    font-size: 12px;
+    color:#333;
+}
+
+
+
+

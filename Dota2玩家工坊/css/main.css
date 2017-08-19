@@ -1,0 +1,94 @@
+.content{
+    margin-top: 195px;
+}
+.content-nav{
+    height:53px;
+    position: relative;
+}
+.content-nav .navbtns li{
+    float: left;
+    width:120px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.content-nav .navbtns li a{
+    font: 16px "微软雅黑";
+    color: #D7D7D7;
+}
+.content-nav .navbtns .current{
+    border:1px solid #3A3A3D;
+    border-bottom: 2px solid #B1402A;
+}
+.content-nav .search{
+    width:207px;
+    height:25px;
+    background-color: #0C0C0E;
+    margin-top: 12px;
+    margin-right: 11px;
+    border-radius: 25px;
+}
+.content-nav .search input{
+    margin-top: 5px;
+    margin-left: 10px;
+    font-size: 12px;
+    background-color: #0C0C0E;
+}
+.content-nav .search i{
+    display: block;
+    width:16px;
+    height:16px;
+    background: url("../images/logos.png") no-repeat 0 0;
+    float: right;
+    margin-top: 4px;
+    margin-right: 12px;
+}
+.content-nav .upBtn{
+    width:209px;
+    height: 54px;
+    position: absolute;
+    top:-63px;
+    right:0px;
+    background: url("../images/upbtn.png")no-repeat -20px -22px;
+}
+.content-nav .upBtn:hover{
+    background: url("../images/upbtn.png")no-repeat -20px -123px;
+}
+#imglist{
+    margin-top: 12px;
+}
+#imglist ul{
+    padding:0 12px;
+}
+img{
+    vertical-align: middle;
+}
+ul li{
+    list-style: none;
+}
+#imglist ul{
+    float: left;
+    list-style: none;
+}
+.content #btns{
+    height:98px;
+    width: 43px;
+    position:fixed;
+    top:391px;
+    right:108px;
+}
+.content #btns s{
+    width:43px;
+    height: 43px;
+    display: block;
+ background: url("../images/newchangehover_01.png")no-repeat 0 0;
+}
+.content #btns i{
+    width:43px;
+    height: 43px;
+    display: block;
+    margin-top:13px;
+    background: url("../images/newchangehover_01.png")no-repeat
+0px -61px;
+}

@@ -1,0 +1,1096 @@
+/*头部*/
+.top {
+    height: 80px;
+    width: 100%;
+    background: url("../images/data2.home.nav.bg.png") no-repeat;
+    border: 1px solid #101215;
+    position: relative;
+    z-index: 10;
+}
+
+.top .top-Left a {
+    float: left;
+    display: block;
+    height: 40px;
+    width: 260px;
+    background: url("../images/dota2.home.log.png") no-repeat;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.top .w .top-center {
+    width: 623px;
+    float: left;
+    z-index:3;
+}
+
+.top .w .topamong {
+    width: 75px;
+    float: left;
+    height: 80px;
+    margin-left: 10px;
+    z-index: 10;
+
+}
+
+.top .w .topamong .link-div {
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.top .w .topamong .link-div a span {
+display: block;
+}
+
+.top .w .topamong .link-pop {
+    display: none;
+    width: 82px;
+    background-color: #101215;
+    z-index: 5;
+    height:300%;
+    text-align: center;
+}
+
+.top .w .topamong .link-pop a {
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    text-align: center;
+    margin-left: 12px;
+    z-index: 5;
+}
+
+.top .w .top-right {
+    float: right;
+    height: 80px;
+    width: 250px;
+}
+
+.top .w .top-right .nav {
+    width: 50px;
+    height: 50px;
+    background-color: #101215;
+    border-radius: 50%;
+    margin-top: 13px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+
+.top .w .top-right i {
+    background: url("../images/icons.png") no-repeat -2px -463px;
+    display: block;
+    height: 25px;
+    width: 21px;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+
+.top .w .top-right .duanluo {
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.top .w .top-right .duanluo a {
+    color: blue;
+}
+
+.top .w .top-right p {
+    margin-top: 3px;
+}
+.sdp {
+    position: fixed;
+    right: 131px;
+    top: 82px;
+}
+.log{
+    position: fixed;
+    right:-200px;
+    z-index: 500;
+    width: 159px;
+    height: 415px;
+}
+
+.dn{
+    position: fixed;
+    right:0px;
+    top: 82px;
+    z-index: 500;
+}
+.lunbuotus {
+
+    height: 100%;
+    width: 100%;
+}
+
+.lunbuotus ul {
+    width: 400%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.lunbuotus ul li {
+    width: 25%;
+    float: left;
+    cursor: pointer;
+}
+
+.lunbuotus ul li a img {
+    height: 421px;
+    width: 100%;
+}
+
+.lunbuotus .yuan {
+    position: absolute;
+    bottom: 250px;
+    left: 655px;;
+
+}
+
+.lunbuotus .yuan span {
+    height: 10px;
+    width: 10px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.lunbuotus .jianto {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    bottom: 50%;
+    cursor: pointer;
+}
+
+.lunbuotus .jianto div{
+    font-size: 50px;
+    color: #101215;
+    text-align: center;
+}
+.lunbuotus .jianto .jianto-left {
+    float: left;
+    height: 60px;
+    width:60px;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+
+.lunbuotus .jianto .jianto-right {
+    float: right;
+    height: 60px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+
+
+}
+
+.count {
+    background-color: #1b1c1f;
+    height: 2000px;
+}
+
+.count .w .function {
+    height: 150px;
+}
+
+.count .w .function .count-left {
+    height: 100%;
+    float: left;
+}
+
+.count .w .function .count-left .spans1 {
+    background: url("../images/u_left_buttons.png") no-repeat -1px -1px;
+    height: 91px;
+    width: 245px;
+    float: left;
+
+}
+
+.count .w .function .count-left .spans2 {
+    height: 91px;
+    width: 245px;
+    background: url("../images/u_left_buttons.png") no-repeat -252px 0;
+    float: left;
+}
+
+.count .w .function .count-left .spans3 {
+    height: 91px;
+    width: 245px;
+    background: url("../images/u_left_buttons.png") no-repeat -504px 0;
+    float: left;
+}
+
+.count .w .function .count-right {
+    height: 95px;
+    float: right;
+}
+
+.count .w .function .count-right .spans4,
+.count .w .function .count-right .spans5,
+.count .w .function .count-right .spans6,
+.count .w .function .count-right .spans7 {
+    float: left;
+}
+
+.count .w .function .count-right .spans4 {
+    width: 140px;
+    height: 95px;
+    background: url("../images/u_right_buttons.png") no-repeat;
+}
+
+.count .w .function .count-right .spans5 {
+    width: 140px;
+    height: 95px;
+    background: url("../images/u_right_buttons.png") no-repeat -140px 0;
+}
+
+.count .w .function .count-right .spans6 {
+    width: 140px;
+    height: 95px;
+    background: url("../images/u_right_buttons.png") no-repeat -280px 0;
+}
+
+.count .w .content-plate {
+    height: 800px;
+    width: 100%;
+
+}
+
+.count .w .content-plate .news-left {
+    width: 754px;
+    height: 800px;
+}
+
+.count .w .content-plate .news-left .xiwenbiaoqian {
+    height: 40px;
+}
+
+.count .w .content-plate .news-left .xiwenbiaoqian p {
+    background: url("../images/data2.home.icons.png") no-repeat -3px -2px;
+    display: block;
+    height: 33px;
+    width: 33px;
+    float: left;
+    margin-right: 3px;
+}
+
+.count .w .content-plate .news-left .xiwenbiaoqian span {
+    float: left;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #ffffff;
+}
+
+.count .w .content-plate .news-left .xiwenbiaoqian i {
+    float: right;
+    margin-top: 3px;
+}
+
+.count .w .content-plate .news-left .xiwenbiaoqian s {
+    width: 5px;
+    height: 5px;
+    background: url("../images/data2.home.icons.png") no-repeat -3px -790px;
+    float: right;
+    display: block;
+    margin-top: 8px;
+}
+
+.count .w .content-plate .news-left .qiehuanlan {
+    height: 34px;
+}
+
+.count .w .content-plate .news-left .qiehuanlan ul li {
+    float: left;
+    width: 148px;
+    height: 34px;
+    border: 1px solid #999999;
+    text-align: center;
+    line-height: 34px;
+    margin-bottom: 15px;
+}
+
+.count .w .content-plate .news-left .Ti {
+    height: 194px;
+    width: 752px;
+    border: 1px solid blue;
+    margin-top: 23px;
+    margin-bottom: 20px;
+}
+
+.count .w .content-plate .news-left .Ti h2 {
+    font-size: 25px;
+    font-weight: 800;
+    color: blue;
+    margin-bottom: 22px;
+}
+
+.count .w .content-plate .news-left .Ti img {
+    float: left;
+    margin-right: 20px;
+}
+
+.count .w .content-plate .news-left .Ti p {
+    line-height: 21px;
+}
+
+.count .w .content-plate .news-left .gogao a {
+    display: inline-block;
+    height: 45px;
+    width: 100%;
+    background-color: #1b1c1f;
+    line-height: 45px;
+}
+
+.count .w .content-plate .news-left .gogao .sp1 {
+    float: left;
+}
+
+.count .w .content-plate .news-left .gogao .sp2 {
+    float: right;
+}
+
+.count .w .content-plate .news-left .gogao .a-color {
+    background-color: #18191c;
+}
+
+.count .w .content-plate .news-left .movable {
+    height: 531px;
+    margin-top: 15px;
+}
+
+.count .w .content-plate .news-left .movable .title {
+    height: 45px;
+}
+
+.count .w .content-plate .news-left .movable .title i {
+    display: block;
+    height: 32px;
+    width: 33px;
+    float: left;
+    margin-top: 6px;
+    background: url("../images/data2.home.icons.png") no-repeat -3px -87px;
+}
+
+.count .w .content-plate .news-left .movable .title h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 3px;
+    margin-right: 67px;
+}
+
+.count .w .content-plate .news-left .menu {
+    height: 45px;
+}
+
+.count .w .content-plate .news-left .menu .public {
+    float: left;
+    width: 135px;
+    height: 45px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+.count .w .content-plate .news-left .menu .public .text {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.count .w .content-plate .news-left .menu .links {
+    height: 20px;
+    width: 1px;
+    float: left;
+    background-color:#999999;
+    margin-top: 20px;
+}
+
+.count .w .content-plate .news-left .menu .nome {
+    border-bottom: 3px solid blue;
+}
+
+.count .w .content-plate .news-left .menu .public .s {
+    height: 15px;
+    width: 31px;
+    position: absolute;
+    border-radius: 28%;
+    top: 8px;
+    right: 5px;
+    background: red;
+}
+
+.count .w .content-plate .news-left .movable .Board {
+    border: 1px solid #333;
+    height: 484px;
+    width:100%;
+}
+.count .w .content-plate .news-left .movable .Board ul {
+    float: left;
+    margin-left: 20px;
+
+}
+.count .w .content-plate .news-left .movable .Board ul li{
+    float: left;
+
+}
+.count .w .content-plate .news-left .shipin {
+    height: 515px;
+    width: 100%;
+    margin-top: 56px;
+    border: 1px solid #000000;
+
+}
+.count .w .content-plate .news-left .movable .Board ul li .im{
+display: none;
+}
+.selected{
+    display: block;
+}
+.count .w .content-plate .news-left .shipin .tobu {
+    height: 42px;
+}
+
+.count .w .content-plate .news-left .shipin span {
+    display: block;
+    float: left;
+    background: url("../images/data2.home.icons.png") no-repeat -4px -213px;
+    height: 32px;
+    width: 32px;
+}
+
+.count .w .content-plate .news-left .shipin h3 {
+    float: left;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.count .w .content-plate .news-left .shipin p {
+    display: block;
+    float: right;
+    margin-top: 6px;
+
+}
+
+.count .w .content-plate .news-left .shipin i {
+    width: 5px;
+    height: 5px;
+    background: url("../images/data2.home.icons.png") no-repeat -3px -790px;
+    float: right;
+    display: block;
+    margin-top: 10px;
+
+}
+
+.count .w .content-plate .news-left .shipin .uls li {
+    float: left;
+    width: 186px;
+    height: 34px;
+    border: 1px solid #333;
+    text-align: center;
+    line-height: 34px;
+    cursor: pointer;
+
+}
+.count .w .content-plate .news-left .shipin .sp {
+    margin-left: 40px;
+}
+.count .w .content-plate .news-left .shipin .sp .no{
+    display: none;
+}
+.count .w .content-plate .news-right {
+    float: right;
+    height: 1766px;
+    width: 443px;
+}
+.count .w .content-plate .news-left .shipin .uls .howo{
+    border: 1px solid #999;
+
+}
+.count .w .content-plate .news-right .jqrd {
+    height: 248px;
+
+}
+
+.count .w .content-plate .news-right .jqrd .goneng {
+    height: 40px;
+}
+
+.count .w .content-plate .news-right .jqrd span {
+    display: block;
+    float: left;
+    height: 32px;
+    width: 32px;
+    margin-right: 3px;
+    background: url("../images/data2.home.icons.png") no-repeat -42px -3px;
+    margin-left: 10px;
+}
+
+.count .w .content-plate .news-right .jqrd h2 {
+    float: left;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 4px;
+}
+
+.count .w .content-plate .news-right .tupian {
+    background: url("../images/ti7.jpg") no-repeat;
+    height: 204px;
+    width: 100%;
+    margin-left: 10px;
+    position: relative;
+}
+
+.count .w .content-plate .news-right .tupian p {
+    position: absolute;
+    top: 165px;
+    left: 110px;
+    font-weight: 800;
+    font-size: 20px;
+    color: #f5dbab;
+}
+
+.count .w .content-plate .news-right .lunbotu {
+    height: 360px;
+    width: 420px;
+    overflow: hidden;
+    margin-left: 10px;
+    position: relative;
+    background-color: #1b1c1f;
+    border: 1px solid #1b1c1f;
+}
+
+.count .w .content-plate .news-right .lunbotu .sashi span {
+    height: 33px;
+    width: 33px;
+    display: block;
+    float: left;
+    background: url("../images/data2.home.icons.png") no-repeat -2px -171px;
+    margin-top: 16px;
+    margin-right: 3px;
+}
+
+.count .w .content-plate .news-right .lunbotu .sashi p {
+    float: right;
+    margin-top: 25px;
+    margin-right: 5px;
+
+}
+
+.count .w .content-plate .news-right .lunbotu .sashi h2 {
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 20px;
+    float: left;
+}
+
+.count .w .content-plate .news-right .lunbotu .sashi s {
+    background: url("../images/data2.home.icons.png") no-repeat -4px -790px;
+    width: 10px;
+    height: 10px;
+    display: block;
+    float: right;
+    margin-top: 30px;
+}
+
+.count .w .content-plate .news-right .lunbotu .sashi {
+    height: 60px;
+}
+
+.count .w .content-plate .news-right .lunbotu ul {
+    width: 2514px;
+    height: 232px;
+    position: absolute;
+
+}
+
+.count .w .content-plate .news-right .lunbotu ul li {
+    float: left;
+
+}
+
+.count .w .content-plate .news-right .lunbotu ul li .lajiwenzi {
+    height: 90px;
+    width: 420px;
+    background-color: #161619;
+    position: absolute;
+    bottom: -68px;
+    float: left;
+}
+
+.count .w .content-plate .news-right .lunbotu ul li .lajiwenzi span {
+    color: #ffffff;;
+    font-size: 20px;
+    font-weight: 800;
+    display: block;
+    line-height: 68px;
+    text-align: center;
+}
+
+.count .w .content-plate .news-right .lunbotu #au {
+    height: 20px;
+    width: 108px;
+    position: absolute;
+    bottom: 12px;
+    left: 142px;
+    z-index: 3;
+}
+
+.count .w .content-plate .news-right .lunbotu #au span {
+    height: 13px;
+    width: 13px;
+    display: block;
+    border-radius: 50%;
+    background: #999999;
+    float: left;
+    margin-left: 8px;
+    border: 2px solid transparent;
+
+}
+.count .w .content-plate .news-right .lunbotu #au span.current {
+    border:2px solid #f5dbab;
+
+}
+
+
+
+.count .w .content-plate .news-right .bbgx {
+    height: 299px;
+    width: 422px;
+    background:#15161a;;
+    margin-left: 10px;
+    margin-top: 54px;
+}
+
+.count .w .content-plate .news-right .bbgx .zdydt {
+    height: 35px;
+    background-color: #1b1c1f;
+}
+
+.count .w .content-plate .news-right .bbgx .zdydt span {
+    height: 33px;
+    width: 33px;
+    float: left;
+    display: block;
+    background: url("../images/data2.home.icons.png") no-repeat -2px -129px;
+}
+
+.count .w .content-plate .news-right .bbgx .zdydt h2 {
+    margin-top: 7px;
+    float: left;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 3px;
+}
+
+.count .w .content-plate .news-right .bbgx .zdydt p {
+    float: right;
+    line-height: 35px;
+}
+
+.count .w .content-plate .news-right .bbgx .zdydt i {
+    width: 5px;
+    height: 5px;
+    background: url("../images/data2.home.icons.png") no-repeat -3px -790px;
+    float: right;
+    display: block;
+    margin-top: 15px;
+}
+
+.count .w .content-plate .news-right .bbgx .xzum {
+    height: 135px;
+    width: 230px;
+    position: relative;
+
+}
+.count .w .content-plate .news-right .bbgx .xzum .arrow{
+    height:100px;
+    width: 183%;
+    position: absolute;
+    top:10px;
+    z-index: 500;
+
+}
+.count .w .content-plate .news-right .bbgx .xzum .arrow .next{
+    position: absolute;
+    left:0px;
+    top:50%;
+    display: block;
+    color: red;
+}
+.count .w .content-plate .news-right .bbgx .xzum .arrow .prev{
+    position: absolute;
+    right:0px;
+    top:50%;
+    display: block;
+    color: red;
+
+}
+
+.count .w .content-plate .news-right .bbgx .xzum ul {
+    margin-top: 40px;
+}
+
+.count .w .content-plate .news-right .bbgx .xzum ul li .u1 {
+    position: absolute;
+    left: 96px;
+    z-index: 5;
+    position: relative;
+}
+
+.count .w .content-plate .news-right .bbgx .xzum ul li .u1 i {
+    color: #508599;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #161619;
+    padding: 2px;
+}
+
+.count .w .content-plate .news-right .bbgx .xzum ul li .u5 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 4;
+}
+
+.count .w .content-plate .news-right .bbgx .xzum ul li .u2 {
+    position: absolute;
+    top: 0px;
+    right: -192px;
+    z-index: 3;
+}
+
+.count .w .content-plate .news-right .bbgx .xzum ul li .u4 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+}
+
+.count .w .content-plate .news-right .bbgx .xzum ul li .u3 {
+    position: absolute;
+    top: 0px;
+    right: -192px;
+    z-index: 1;
+}
+
+.count .w .content-plate .news-right .bbgx .xzum ul li .tu1 .xinsuan {
+    height: 34px;
+    width: 230px;
+    background: #000000;
+    text-align: center;
+    line-height: 34px;
+}
+
+.count .w .content-plate .news-right .zdyd {
+    height: 203px;
+    width: 422px;
+    background: #1e1e22;
+    margin-top: 20px;
+    margin-bottom: 65px;
+    margin-left: 10px;
+}
+
+.count .w .content-plate .news-right .zdyd .dt {
+    height: 34px;
+    margin-bottom: 11px;
+}
+
+.count .w .content-plate .news-right .zdyd .dt span {
+    display: block;
+    height: 33px;
+    width: 33px;
+    float: left;
+    background: url("../images/data2.home.icons.png") no-repeat -2px -171px;
+}
+
+.count .w .content-plate .news-right .zdyd .dt h3 {
+    margin-top: 5px;
+    float: left;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 3px;
+}
+
+.count .w .content-plate .news-right .zdyd .dt i {
+    width: 5px;
+    height: 5px;
+    background: url("../images/data2.home.icons.png") no-repeat -3px -790px;
+    float: right;
+    display: block;
+    margin-top: 15px;
+}
+
+.count .w .content-plate .news-right .zdyd .dt p {
+    float: right;
+    line-height: 35px;
+}
+
+.count .w .content-plate .news-right .zdyd .nearo {
+    height: 158px;
+}
+
+.count .w .content-plate .news-right .zdyd .nearo .nearo-left {
+    float: left;
+}
+
+.count .w .content-plate .news-right .zdyd .nearo .nearo-right {
+    float: right;
+}
+
+.count .w .content-plate .news-right .zdyd .nearo .nearo-left .name {
+    height: 41px;
+    font-size: 20px;
+    text-align: center;
+    background: #222328;
+    line-height: 41px;
+}
+
+.count .w .content-plate .news-right .zdyd .nearo .nearo-right .name {
+    height: 41px;
+    font-size: 20px;
+    text-align: center;
+    background: #222328;
+    line-height: 41px;
+}
+
+.count .w .content-plate .news-right .kfzx {
+    height: 515px;
+    width: 422px;
+    background:#222328;;
+    margin-left: 10px;
+}
+
+.count .w .content-plate .news-right .kfzx .zxkefu {
+    height: 34px;
+    width: 422px;
+}
+
+.count .w .content-plate .news-right .kfzx .zxkefu span {
+    display: block;
+    height: 33px;
+    width: 33px;
+    float: left;
+    background: url("../images/data2.home.icons.png") no-repeat -2px -255px;
+}
+
+.count .w .content-plate .news-right .kfzx .zxkefu h3 {
+    margin-top: 5px;
+    float: left;
+    font-size: 20px;
+    font-weight: 800;
+    margin-left: 3px;
+}
+
+.count .w .content-plate .news-right .kfzx .zxkefu i {
+    width: 5px;
+    height: 5px;
+    background: url("../images/data2.home.icons.png") no-repeat -3px -790px;
+    float: right;
+    display: block;
+    margin-top: 15px;
+}
+
+.count .w .content-plate .news-right .kfzx .zxkefu p {
+    float: right;
+    line-height: 35px;
+}
+
+.count .w .content-plate .news-right .kfzx .kftw {
+    height: 461px;
+    margin-top: 20px;
+}
+
+.count .w .content-plate .news-right .kfzx .kftw .inputs {
+    position: relative;
+}
+
+.count .w .content-plate .news-right .kfzx .kftw .inputs .txt {
+    height: 32px;
+    width: 278px;
+    float: left;
+    margin-left: 20px;
+}
+
+.count .w .content-plate .news-right .kfzx .kftw .inputs .btn {
+    height: 32px;
+    width: 36px;
+    position: absolute;
+    right: 124px;
+    background: red;
+    border: 1px solid red;
+}
+
+.count .w .content-plate .news-right .kfzx .kftw .inputs .btn i {
+    display: block;
+    height: 16px;
+    width: 16px;
+    background: url("../images/data2.home.icons.png") no-repeat -5px -703px;
+
+}
+
+.count .w .content-plate .news-right .kfzx .kftw .inputs .btn1 {
+    float: left;
+    height: 32px;
+    width: 93px;
+    margin-left: 10px;
+    background: #565864;
+    border: 1px solid #565864;
+}
+
+.count .w .content-plate .news-right .kfzx .kftw .inputs .cjwt {
+    height: 600px;
+    margin-top: 20px;
+    float: left;
+    width: 100%;
+}
+
+.count .w .content-plate .news-right .kfzx .kftw .inputs .cjwt a {
+    display: block;
+    margin-top: 23px;
+
+}
+
+.count .w .content-plate .news-right .kfzx .kftw .inputs .cjwt a i {
+    background: url("../images/data2.home.icons.png") -4px -828px;
+    display: block;
+    width: 3px;
+    height: 3px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.count .w .content-plate .news-right .kfzx .kftw .inputs .cjwt a p {
+    margin-left: 40px;
+    display: block;
+}
+
+.count .w .content-plate .news-right .kfzx .kftw .inputs .cjwt h1 {
+    border-bottom: 1px solid #000000;
+    margin-left: 19px;
+    padding-bottom: 8px;
+    font-size: 20px;
+}
+
+/**************  dota 页尾   ***********/
+.dotapkfooter {
+    height: 160px;
+}
+
+.dotapkfooter .dotapkfootershang {
+    padding-top: 42px;
+    color: #959595;
+}
+
+.dotapkfooter .dotapkfootershang p {
+    float: left;
+    margin-left: 20px;
+}
+
+.dotapkfooter .dotapkfooteryou1 {
+    float: left;
+    margin-left: 121px;
+    cursor: pointer;
+    background: url(../images/logo-wanmei.png) no-repeat;
+    height: 38px;
+    width: 94px;
+}
+
+.dotapkfooter .dotapkfooteryou2 {
+    float: left;
+    margin-left: 43px;
+    cursor: pointer;
+    height: 38px;
+    width: 99px;
+    background: url(../images/logo-valve.png) no-repeat;
+}
+
+/**************  dota 页尾   ***********/
+.dotapkfooter {
+    height: 160px;
+}
+
+.dotapkfooter .dotapkfootershang {
+    padding-top: 42px;
+    color: #959595;
+}
+
+.dotapkfooter .dotapkfootershang p {
+    float: left;
+    margin-left: 20px;
+}
+
+.dotapkfooter .dotapkfooteryou1 {
+    float: left;
+    margin-left: 121px;
+    cursor: pointer;
+    background: url(../images/logo-wanmei.png) no-repeat;
+    height: 38px;
+    width: 94px;
+}
+
+.dotapkfooter .dotapkfooteryou2 {
+    float: left;
+    margin-left: 43px;
+    cursor: pointer;
+    height: 38px;
+    width: 99px;
+    background: url(../images/logo-valve.png) no-repeat;
+}
+
+/**************  dota 页尾   ***********/
+.dotapkfooter {
+    height: 160px;
+    background: #000000;
+}
+
+.dotapkfooter .dotapkfootershang {
+    padding-top: 42px;
+    color: #959595;
+}
+
+.dotapkfooter .dotapkfootershang p {
+    float: left;
+    margin-left: 20px;
+}
+
+.dotapkfooter .dotapkfooteryou1 {
+    float: left;
+    margin-left: 121px;
+    cursor: pointer;
+    background: url(../images/logo-wanmei.png) no-repeat;
+    height: 38px;
+    width: 94px;
+}
+
+.dotapkfooter .dotapkfooteryou2 {
+    float: left;
+    margin-left: 43px;
+    cursor: pointer;
+    height: 38px;
+    width: 99px;
+    background: url(../images/logo-valve.png) no-repeat;
+}
+
+.dotapkfooter .dotapkfooterxia {
+    text-align: center;
+    padding-top: 17px;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #333;
+    margin-top: 10px;
+}

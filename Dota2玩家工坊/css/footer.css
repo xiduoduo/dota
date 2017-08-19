@@ -1,0 +1,30 @@
+.footer{
+    height:120px;
+    background-color: #000000;
+    padding-top: 30px;
+}
+
+.footer .footer-top{
+    height: 32px;
+ }
+
+.footer .footer-top p{
+    text-align: center;
+    line-height: 16px;
+}
+.footer .footer-content{
+    margin-top: 14px;
+    height:28px;
+}
+.footer .footer-content .footer-left{
+    width:179px;
+    height: 28px;
+    margin-left: 133px;
+ }
+.footer .footer-content .footer-right{
+    width: 692px;
+    height:28px;
+ }
+.footer .footer-content .footer-right p{
+    line-height: 13px;
+}

@@ -1,0 +1,43 @@
+body{
+    background: url("../images/bodybg_01.jpg") repeat-y 50% 0;
+}
+.body{
+    min-height:1000px;
+    background: url("../images/indexbottombg_02.jpg")no-repeat center top;
+}
+.nav{
+    background-color: #19191B;
+}
+.nav-content{
+    height:40px;
+}
+.nav-content .loginBtn,.nav-content .siginBtn{
+    display: block;
+    width: 90px;
+    height: 40px;
+    border-left:1px solid #141415;
+    border-right:1px solid #272829;
+    color: #757575;
+    text-align: center;
+    line-height: 40px;
+    font-size:14px;
+}
+.nav-content .userlogin a:hover{
+    color: red;
+}
+.nav-content .loginBtn i{
+    display: inline-block;
+    width:14px;
+    height:16px;
+    background:url("../images/logos.png")  -140px 0px no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.nav-content .siginBtn i{
+    display: inline-block;
+    width:16px;
+    height:17px;
+    background: url("../images/logos.png") -108px -74px no-repeat;
+    vertical-align: middle;
+    margin-right: 5px;
+}

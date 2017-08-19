@@ -1,0 +1,259 @@
+/*跳转圆圈定位*/
+.circle {
+    position: fixed;
+    right: 10px;
+    top:330px;
+    z-index: 1;
+}
+.circle li {
+    height: 21px;
+    width: 21px;
+    border-radius: 50%;
+    background-color: #4A6279;
+    margin-top: 13px;
+    
+}
+.circle .one {
+    background-color: red;
+}
+/*设置四个跳转页面的高度*/
+.bodyFrane {
+    height:751px;
+    overflow:hidden;
+}
+
+/*四个跳转页面的背景图片*/
+.screen1 {
+    background:url("images/bg1_1504.jpg") no-repeat 0 -130px;
+}
+.screen2 {
+    background:url("images/bg2_1504.jpg") no-repeat 0 -130px;
+}
+.screen3 {
+    background:url("images/bg3_1504.jpg") no-repeat 0 -130px;
+}
+.screen4 {
+    background:url("images/bg4_1504.jpg") no-repeat 0 -130px;
+}
+/*左侧logo*/
+.screen1 .logo {
+    left: 40px;
+    top:75px;
+}
+/*中间区域*/
+.screen1 .middle {
+    float: left;
+    margin-top: 30px;
+    margin-left: 534px;
+    width: 554px;
+    height: 700px;
+    /*background-color: pink;*/
+}
+/*完美刀塔图片*/
+
+/*下载区域*/
+.screen1 .middle .download div {
+    height: 91px;
+    width: 246px;
+}
+.screen1 .middle .download .iphone {
+    top:0;
+    left:0;
+}
+.screen1 .middle .download .android {
+    top:0;
+    left:276px;
+}
+.screen1 .middle .download .winPhone {
+    top:119px;
+    left:0;
+}
+.screen1 .middle .download .win10 {
+    top:119px;
+    left:276px;
+}
+
+.screen1 .middle .download a {
+    display: block;
+    height: 91px;
+    width: 246px;
+    cursor: pointer;
+}
+.screen1 .middle .download .iphone a {
+    background: url("images/btn_down.png");
+}
+.screen1 .middle .download .android a {
+    background: url("images/btn_down1.png");
+}
+.screen1 .middle .download .winPhone a {
+    background: url("images/btn_down2.png");
+}
+.screen1 .middle .download .win10 a {
+    background: url("images/btn_down3.png");
+}
+
+
+/*隐藏的p盒子*/
+.screen1 .middle .download p {
+    position: absolute;
+    display: none;
+    padding-left: 15px;
+    line-height: 1.8;
+    font-size: 12px;
+    color: #FF9B80;
+    font-family: "微软雅黑";
+    width: 231px;
+    height: 106px;
+    padding-top: 20px;
+    border-radius: 0 0 10px 10px;
+    z-index: 1;
+}
+.screen1 .middle .download .iphone p {
+    top:65px;
+    left: 0px;
+    background-color: #FF3600;
+    border-bottom:7px solid #C82A00;
+}
+.screen1 .middle .download .android p {
+    top:65px;
+    background-color: #75B003;
+    border-bottom:7px solid #456900;
+
+}
+.screen1 .middle .download .winPhone p {
+    top:65px;
+    left: 0px;
+    background-color: #3399FF;
+    border-bottom:7px solid #1A68B5;
+
+}
+.screen1 .middle .download .win10 p {
+    top:65px;
+    background-color: #3399FF;
+    border-bottom:7px solid #1A68B5;
+
+}
+
+/*小箭头*/
+.screen1 .middle .download p i {
+    display: inline-block;
+    height: 13px;
+    width: 25px;
+    margin-left: 95px;
+    /*z-index: 1;*/
+}
+.screen1 .middle .download  i img {
+    transform: rotate(180deg);
+
+}
+/*二维码*/
+.barcode {
+    margin-top: 229px;
+    height: 200px;
+    /*background-color: pink;*/
+}
+.barcode p {
+    color: #4A6279;
+    font: normal 12px/26px "宋体";
+    padding-top: 28px;
+    left: 159px;
+    top:0;
+}
+.barcode p span {
+    color: #B8C1C9;
+}
+/*右上角小图标*/
+.screen1 .share {
+    top: -733px;
+    height: 50px;
+    width: 476px;
+}
+.screen1 .share a {
+    display: inline-block;
+    height: 40px;
+    line-height:40px;
+    color: #B8C1C9;
+    font-size: 18px;
+    font-family: "微软雅黑";
+    top:3px;
+}
+.screen1 .share .a2 {
+    left: 99px;
+}
+.screen1 .share .fenxiang {
+    top:15px;
+    left: 240px;
+    font-size: 14px;
+    font-family: "微软雅黑";
+    color:#718CAD;
+;
+}
+.screen1 .share ul li {
+    float: left;
+    margin-right: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+
+/*---------------第四个div------------------*/
+/*红色半透明区域*/
+.bottom {
+    height:300px;
+    bottom:-300px;
+    background-color:pink;
+    opacity:0.9;
+    z-index: 4;
+    width: 1920px;
+    background:url("images/bot_bar.jpg");
+    z-index: 10;
+}
+.bottom a {
+    height: 82px;
+    width:265px;
+}
+.bottom a.one {
+    left: 517px;
+    top:86px;
+}
+.bottom a.two {
+    left: 517px;
+    top:186px;
+}
+.bottom a.three {
+    left: 810px;
+    top:86px;
+}
+.bottom a.four {
+    left: 810px;
+    top:186px;
+}
+
+/*底部*/
+.footer {
+    height: 90px;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #000000;
+}
+.footer p {
+    text-align: center;
+    color:#878686;
+    font-size:12px;
+}
+.footer dd {
+    color:#878686;
+    font-size:12px;
+    top:63px;
+    left:541px;
+}
+.footer .wmsj {
+    top:67px;
+    left:340px;
+}
+.footer .valve {
+    top:67px;
+    left:429px;
+}
+
+

@@ -1,0 +1,159 @@
+@charset "utf-8";
+/*******author:Zhongwei.Zhang**************/
+html{ -webkit-text-size-adjust: 100%; width:100%; height:100%; }
+body{ width:100%; height:100%; margin:0; padding:0; font-size:14px; font-family:"微软雅黑","宋体",Arial, Helvetica, sans-serif; background-color:#000; overflow:hidden;}
+div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,select,textarea,table,td{ margin:0; padding:0;}
+h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}
+area{outline:none;}
+img{ border:0;}
+ol,ul{list-style:none;}
+a{ font-family:"微软雅黑","宋体",Arial, Helvetica, sans-serif; text-decoration:none;outline:none;}
+a:hover{ text-decoration:underline}
+.clearfix:after {content:"";display:block;height:0;clear:both;} 
+.clearfix {zoom:1;}
+
+.wrap{ position:relative;max-width:640px; width:100%;height:100%; margin:0 auto; overflow:hidden;}
+
+.screen{position:absolute; width: 100%; height:100%; left:0;}
+#screen1{background:#080e12 url(bg1.jpg)/*tpa=http://app.dota2.com.cn/images/bg1.jpg*/ center bottom no-repeat; background-size:100% auto; z-index:4;}
+.s1_img1{ width:70%; margin:20px auto 0;}
+.s1_img2{ width:35%; margin:10px auto 0;}
+.s1_img3{width:60%; margin:10px auto 0;}
+.s1_img4{ position:absolute; width:100%; left:0; bottom:10%; text-align:center; color:#838587}
+.s1_img4 img{ width:80%;}
+img.w100{ width:100%;}
+
+#screen2{background:#080e12 url(bg2_1504-1.jpg)/*tpa=http://app.dota2.com.cn/images/bg2_1504.jpg*/ center bottom no-repeat; background-size:100% auto; z-index:3;}
+.s2_img1,.s2_img2,.s3_img1,.s3_img2,.s4_img1,.s4_img2{ display:none; position:absolute; width:70%; left:15%;}
+.s2_img1{ top:2%;}
+.s2_img2{ top:30%;}
+
+#screen3{background:#080e12 url(bg3_1504-1.jpg)/*tpa=http://app.dota2.com.cn/images/bg3_1504.jpg*/ center bottom no-repeat; background-size:100% auto; z-index:2;}
+.s3_img1{ top:10%;}
+.s3_img2{ top:30%;}
+
+#screen4{background:#080e12 url(bg4_1504-1.jpg)/*tpa=http://app.dota2.com.cn/images/bg4_1504.jpg*/ center bottom no-repeat; background-size:100% auto; z-index:1;}
+.s4_img1{ top:5%;}
+.s4_img2{ top:30%;}
+.bot_bar{ display:none; position:absolute; width:100%; left:0; bottom:0;background:#ff3600;padding-top:46.875%}
+.bot_bar img{ display:block;}
+.qr{width:64px;position:absolute;left:14.1%; top:40%;}
+.btn_bot_down{ position:absolute; width:180px; left:50%; top:40%;margin-left:-90px;}
+.bot_bar .title{ position:absolute;left:0;top:18%;font-size:16px;color:#fff;width:100%; text-align:center}
+
+.btn_next{ position:absolute;width:10%; left:45%; bottom:2%;-webkit-animation: .3s upanimation infinite alternate;	-moz-animation: .3s upanimation infinite alternate;-o-animation: .3s upanimation infinite alternate;animation: .3s upanimation infinite alternate; cursor:pointer;}
+
+@-webkit-keyframes upanimation {
+	to{bottom: 4%}
+}
+@-moz-keyframes upanimation {
+	to{bottom: 4%}
+}
+
+.animation_fan{
+-webkit-animation:flip 1s .2s ease both;
+-moz-animation:flip 1s .2s ease both;}
+@-webkit-keyframes flip{
+0%{-webkit-transform:perspective(400px) rotateY(0);
+-webkit-animation-timing-function:ease-out}
+40%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(170deg);
+-webkit-animation-timing-function:ease-out}
+50%{-webkit-transform:perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+-webkit-animation-timing-function:ease-in}
+80%{-webkit-transform:perspective(400px) rotateY(360deg) scale(.95);
+-webkit-animation-timing-function:ease-in}
+100%{-webkit-transform:perspective(400px) scale(1);
+-webkit-animation-timing-function:ease-in}
+}
+@-moz-keyframes flip{
+0%{-moz-transform:perspective(400px) rotateY(0);
+-moz-animation-timing-function:ease-out}
+40%{-moz-transform:perspective(400px) translateZ(150px) rotateY(170deg);
+-moz-animation-timing-function:ease-out}
+50%{-moz-transform:perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+-moz-animation-timing-function:ease-in}
+80%{-moz-transform:perspective(400px) rotateY(360deg) scale(.95);
+-moz-animation-timing-function:ease-in}
+100%{-moz-transform:perspective(400px) scale(1);
+-moz-animation-timing-function:ease-in}
+}
+
+.animation_left{
+-webkit-animation:bounceInLeft 1s .2s ease both;
+-moz-animation:bounceInLeft 1s .2s ease both;}
+@-webkit-keyframes bounceInLeft{
+0%{opacity:0;
+-webkit-transform:translateX(-2000px)}
+60%{opacity:1;
+-webkit-transform:translateX(30px)}
+80%{-webkit-transform:translateX(-10px)}
+100%{-webkit-transform:translateX(0)}
+}
+@-moz-keyframes bounceInLeft{
+0%{opacity:0;
+-moz-transform:translateX(-2000px)}
+60%{opacity:1;
+-moz-transform:translateX(30px)}
+80%{-moz-transform:translateX(-10px)}
+100%{-moz-transform:translateX(0)}
+}
+
+.animation_right{
+-webkit-animation:bounceInRight 1s .4s ease both;
+-moz-animation:bounceInRight 1s .4s ease both;}
+@-webkit-keyframes bounceInRight{
+0%{opacity:0;
+-webkit-transform:translateX(2000px)}
+60%{opacity:1;
+-webkit-transform:translateX(-30px)}
+80%{-webkit-transform:translateX(10px)}
+100%{-webkit-transform:translateX(0)}
+}
+@-moz-keyframes bounceInRight{
+0%{opacity:0;
+-moz-transform:translateX(2000px)}
+60%{opacity:1;
+-moz-transform:translateX(-30px)}
+80%{-moz-transform:translateX(10px)}
+100%{-moz-transform:translateX(0)}
+}
+
+.animation_bot{
+-webkit-animation:fadeInUpBig 1s .6s ease both;
+-moz-animation:fadeInUpBig 1s .6s ease both;}
+@-webkit-keyframes fadeInUpBig{
+0%{opacity:0;
+-webkit-transform:translateY(2000px)}
+100%{opacity:1;
+-webkit-transform:translateY(0)}
+}
+@-moz-keyframes fadeInUpBig{
+0%{opacity:0;
+-moz-transform:translateY(2000px)}
+100%{opacity:1;
+-moz-transform:translateY(0)}
+}
+
+.bounceOut{
+-webkit-animation:bounceOut 1s .2s ease both;
+-moz-animation:bounceOut 1s .2s ease both;}
+@-webkit-keyframes bounceOut{0%{-webkit-transform:scale(1)}
+25%{-webkit-transform:scale(.95)}
+50%{opacity:1;-webkit-transform:scale(1.1)}
+100%{opacity:0;-webkit-transform:scale(.3)}}
+@-moz-keyframes bounceOut{0%{-moz-transform:scale(1)}
+25%{-moz-transform:scale(.95)}
+50%{opacity:1;-moz-transform:scale(1.1)}
+100%{opacity:0;-moz-transform:scale(.3)}}
+
+.bounceInUp{
+-webkit-animation:bounceInUp 1s .2s ease both;
+-moz-animation:bounceInUp 1s .2s ease both;}
+@-webkit-keyframes bounceInUp{0%{opacity:0;-webkit-transform:translateY(2000px)}
+60%{opacity:1;-webkit-transform:translateY(-30px)}
+80%{-webkit-transform:translateY(10px)}
+100%{-webkit-transform:translateY(0)}}
+@-moz-keyframes bounceInUp{0%{opacity:0;-moz-transform:translateY(2000px)}
+60%{opacity:1;-moz-transform:translateY(-30px)}
+80%{-moz-transform:translateY(10px)}
+100%{-moz-transform:translateY(0)}}

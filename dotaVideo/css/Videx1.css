@@ -1,0 +1,470 @@
+/*导航栏开始*/
+.dota2_nav_container {
+    background: url(../images/data2.home.nav.bg.png) no-repeat center;
+}
+
+.nav_main {
+    height: 80px;
+    width: 1200px;
+    margin: 0 auto;
+    /*background-color: red;*/
+
+}
+
+.nav_main .nav_logo {
+    display: block;
+    width: 259px;
+    height: 37px;
+    background: url(../images/dota2.home.log.png) no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.nav_main .dota2nav {
+    height: 80px;
+    width: 623px;
+    /*background-color: pink;*/
+}
+
+.nav_main .nav_logo, .nav_main .dota2nav {
+    float: left;
+}
+
+.nav_main .dota2nav .link_div {
+    position: relative;
+    float: left;
+    padding: 21px 7px;
+    text-align: center;
+    width: 75px;
+
+}
+
+.nav_main .dota2nav .link_div:hover {
+    background-color: black;
+}
+
+.nav_main .dota2nav .link_div a {
+    display: block;
+    font-size: 15px;
+    color: #827c79;
+}
+
+.nav_main .dota2nav .link_div a:hover {
+    color: dodgerblue;
+}
+
+.nav_main .dota2nav .link_div .link_nav span {
+    display: block;
+    font-size: 16px;
+}
+
+.nav_main .dota2nav .link_div .link_nav .link_nav_e {
+    font-size: 9px;
+    margin-top: 2px;
+}
+
+.nav_main .dota2nav .link_div .link_pop {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    padding-top: 10px;
+    width: 100%;
+    height: 239px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background: url(../images/data2.home.submenu.bg.png) top center no-repeat;
+    background-size: cover;
+    /*设置背景图片在不平铺的情况下充满盒子*/
+}
+
+.nav_main .dota2user {
+    float: right;
+    width: 234px;
+    height: 100%;
+    margin-right: 0;
+    color: #ccc;
+    position: relative;
+    /*background-color: red;*/
+}
+
+.nav_main .dota2user .info {
+    margin-left: 65px;
+    margin-top: 20px;;
+}
+
+.nav_main .dota2user .info a {
+    color: dodgerblue;
+
+}
+
+.nav_main .dota2user .info a:hover {
+    text-decoration: underline;
+}
+
+.nav_main .dota2user .info .name {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 3px;
+}
+
+.nav_main .dota2user .nav-avatar {
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #262323;
+    border-radius: 50%;
+    left: 0;
+    top: 13px;
+    background: url(../images/icons.png) no-repeat 13px -451px;
+}
+
+/*导航栏结束*/
+
+/*主体开始*/
+#content {
+    /*height: 6000px;*/
+    min-width: 1100px;
+    background: url(../images/bg1.jpg) no-repeat center -212px;
+}
+
+#wrap {
+    /*height: 6000px;*/
+    background: url(../images/bg2.jpg) no-repeat center 2029px;
+}
+
+/*header 开始*/
+
+#header {
+    position: relative;
+    height: 160px;
+    font-size: 14px;
+    color: #FFF;
+
+}
+
+#header .navList {
+    position: absolute;
+    top: 126px;
+    left: 32px;
+
+}
+
+#header .navList a {
+    text-decoration: underline;
+    color: #C81623;
+}
+
+#main {
+    position: relative;
+}
+
+.nav02 {
+    height: 100px;
+    /*width: 100%;*/
+    width: 1100px;
+    position: relative;
+    /*background-color: green;*/
+    margin-bottom: 20px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: auto;
+}
+
+.nav02 a {
+    display: block;
+    float: left;
+    height: 200px;
+    width: 123px;
+    background: url(../images/p28.png) no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+    position: absolute;
+
+}
+
+.nav02 .nv01 {
+    width: 114px;
+    background-position: 0 0;
+}
+
+.nav02 .nv02 {
+    left: 114px;
+    background-position: -114px 0;
+}
+
+.nav02 .nv03 {
+    left: 237px;
+    background-position: -237px 0;
+}
+
+.nav02 .nv04 {
+    left: 360px;;
+    background-position: -360px 0;
+}
+
+.nav02 .nv05 {
+    left: 483px;
+    background-position: -483px 0;
+}
+
+.nav02 .nv06 {
+    left: 606px;
+    background-position: -606px 0;
+}
+
+.nav02 .nv07 {
+    left: 729px;
+    background-position: -729px 0;
+}
+
+.nav02 .nv08 {
+    left: 852px;
+    background-position: -852px 0;
+}
+
+.nav02 .nv09 {
+    left: 975px;
+    width: 125px;
+    background-position: -975px 0;
+}
+
+/*header 结束*/
+
+.section01 {
+    height: 410px;
+    /*background-color: green;*/
+}
+
+.block01 {
+    width: 678px;
+    height: 384px;
+    border: 11px solid rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+    float: left;
+    /*background-color:pink;*/
+}
+
+.block01 .imgs {
+    width: 540px;
+    height: 9999px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.block01 .pic, .block01 .pic img, .block01 .mask {
+    width: 540px;
+    height: 384px;
+    display: block;
+}
+
+.block01 .pic1 {
+    background: url(../images/270864941511.jpg) no-repeat;
+}
+
+.block01 .pic2 {
+    background: url(../images/270690865433.jpg) no-repeat;
+}
+
+.block01 .pic3 {
+    background: url(../images/270351626035.jpg) no-repeat;
+}
+
+.block01 .pic4 {
+    background: url(../images/270177667702.jpg) no-repeat;
+}
+
+.block01 .pic5 {
+    background: url(../images/270006043106.jpg) no-repeat;
+}
+
+.block01 .mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/p03.png) no-repeat 0 0;
+    cursor: pointer;
+    opacity: 0;
+}
+
+.block01 .nvs {
+    width: 137px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.block01 .nvs .v {
+    background-color: #586e7a;
+    height: 75px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.block01 .nvs .v .t {
+    color: #d5d5d5;
+    padding-top: 20px;
+}
+
+.cur {
+    background-color: #ae3e00;
+}
+
+.block01 .nvs .cur .t {
+    color: #FFF;
+}
+
+.block01 .nvs .v b {
+    display: block;
+    padding-left: 12px;
+    overflow: hidden;
+    height: 21px;
+}
+
+.block01 .nvs .v .s {
+    color: #a6a6a6;
+    font-weight: normal;
+}
+
+.block02 {
+    float: right;
+    width: 386px;
+    height: 406px;
+    /*background-color: green;*/
+}
+
+.tit01 {
+    position: relative;
+    height: 40px;
+    /*background-color: pink;*/
+}
+
+.tit01 h2 {
+    color: #dadad9;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px #000;
+    text-indent: 60px;
+}
+
+.tit01 .tabs {
+    text-align: right;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.tit01 ul li {
+    /*float: left;*/
+    display: inline-block;
+    border: 1px solid #5f6b6d;
+    width: 42px;
+    text-align: center;
+    line-height: 22px;
+    height: 22px;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 0 0 0 5px;
+    font-size: 14px;
+
+}
+
+.tit01 .icon01 {
+    background: url(../images/p04.png) no-repeat 0 0;
+}
+
+.tit01 b {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 51px;
+    height: 100%;
+}
+
+.block02 .innerHTML li {
+    background-color: #333942;
+    border-bottom: 1px dotted #4e5858;
+    height: 42px;
+    position: relative;
+    vertical-align: middle;
+    padding-left: 35px;
+}
+
+.block02 .innerHTML .n {
+    position: absolute;
+    top: 14px;
+    left: 9px;
+    background: url(../images/p05.png) no-repeat 0 0;
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    padding-right: 4px;
+    font-family: SimSun;
+    font-size: 12px;
+}
+
+.block02 .innerHTML li a {
+    display: block;
+    padding: 12px 0 3px 0;
+}
+
+.block02 .innerHTML .o {
+    display: none;
+    color: #8e8e8e;
+}
+
+/*.block02 .innerHTML .cur{*/
+/*height: 64px;*/
+/*}*/
+/*主体结束*/
+.bbb1 {
+    height: 1473px;
+    background: url(../images/bbb1.png) no-repeat top center;
+}
+
+.bbb2 {
+    height: 1623px;
+    background: url(../images/bbb2.png) no-repeat top center;
+}
+
+.bbb3 {
+    margin-top: 20px;
+    height: 160px;
+    background: url(../images/bbb3.png) no-repeat top center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

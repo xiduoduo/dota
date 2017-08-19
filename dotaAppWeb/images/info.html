@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="author" content="Design:Fei.Zhao; Web Layout:Zhongwei.Zhang;" />
+<meta name="keywords" content="完美刀塔,完美刀塔助手,完美刀塔APP,dota2,dota,dota2 app,dota2 app下载,官网,英雄,对战,续作,经典,moba" />
+<meta name="description" content="《完美刀塔助手》是完美世界出品的DOTA2辅助工具，专为热爱DOTA和DOTA2的玩家开发。提供包括DOTA2资讯、DOTA2英雄资料、DOTA2物品合成、DOTA2视频、DOTA2直播等功能，后续版本将包含更多的与DOTA2玩家交互与优惠活动，喜爱DOTA2的玩家，快下载完美刀塔APP吧！精彩不容错过！" />
+<link href="web1504.css" tppabs="http://app.dota2.com.cn/style/web1504.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="stat.js" tppabs="http://app.dota2.com.cn/js/stat.js"></script>
+<script type="text/javascript" src="jq_171.js" tppabs="http://www.wanmei.com/public/js/jq_171.js"></script>
+<script type="text/javascript" src="checkwap.js" tppabs="http://www.wanmei.com/public/js/checkwap.js"></script>
+<script type="text/javascript">
+checkwap('index.html'/*tpa=http://app.dota2.com.cn/index.html*/);
+</script>
+<title>完美刀塔助手APP下载 - 完美官方出品</title>
+<script>
+$(function(){
+	$("#btn_down_iphone,#btn_down_android").hover(function(){
+		$(this).addClass('hover')
+	},function(){
+		$(this).removeClass('hover')
+	});
+	//
+	$(".submenu li").click(function(){
+		var i = $(this).index();
+		$(this).addClass("on").siblings().removeClass("on");
+		$(".update_log").hide().eq(i).show();
+	});
+	
+	$(".update_log dt").click(function(){
+		var slideFlag = $(this).attr('slide');
+		var dl = $(this).closest("dl");
+		if(slideFlag == 0){
+			$(this).attr('slide',1);
+			dl.addClass('on');
+		}else if(slideFlag == 1){
+			$(this).attr('slide',0);
+			dl.removeClass('on');
+		}		
+	});
+	
+	$(".update_log dd .arrow").click(function(){
+		var dl = $(this).closest("dl");
+		var dt = $(this).parent().parent('dd').siblings('dt');
+		dt.attr('slide',0);
+		dl.removeClass("on");
+	})
+})
+</script>
+</head>
+<body class="infobg">
+<img src="share_pic.jpg" tppabs="http://app.dota2.com.cn/images/web/share_pic.jpg" style="display:none" />
+<div style="position:relative"> <a href="javascript:if(confirm(%27http://www.dota2.com.cn/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.dota2.com.cn/%27" tppabs="http://www.dota2.com.cn/" target="_blank"><img class="logo" src="logo.png" tppabs="http://app.dota2.com.cn/images/web/logo.png" style="top:50px;" /></a> 
+  <!-- 分享 -->
+  <div class="share_box">
+    <p>分享到：</p>
+    <img id="share_sina" src="share_sina.png" tppabs="http://app.dota2.com.cn/images/web/share_sina.png" /> <img id="share_qq" src="share_qq.png" tppabs="http://app.dota2.com.cn/images/web/share_qq.png" /> <img id="share_zone" src="share_zone.png" tppabs="http://app.dota2.com.cn/images/web/share_zone.png" /> <img id="share_baidu" src="share_baidu.png" tppabs="http://app.dota2.com.cn/images/web/share_baidu.png" /> </div>
+  <!-- 导航 -->
+  <ul class="menu">
+    <li> <a href="web.html" tppabs="http://app.dota2.com.cn/web.html">首页</a> </li>
+    <li class="on"> <a href="info.html" tppabs="http://app.dota2.com.cn/info.html">更新日志</a> </li>
+  </ul>
+  <ul class="submenu">
+    <li class="on"> <a href="javascript:void(0)" class="ios"></a> </li>
+    <li> <a href="javascript:void(0)" class="android"></a> </li>
+	 <li> <a href="javascript:void(0)" class="window"></a> </li>
+  </ul>
+  <div class="update_log_box"> 
+    <!-- iOS -->
+    <div class="update_log" style="display:block">
+      <dl class="on">
+        <dt slide="1"> <span class="date">2016-7-20</span> <span class="label">V3.3.1</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz17.jpg" tppabs="http://app.dota2.com.cn/images/web/rz17.jpg" /></div>
+            <div class="text">
+                <p>为方便各位刀友观看TI6精彩赛况，3.3.1版特别加入以下功能，欢迎更新体验：</p>
+                <p>1.赛事中心，增加订阅赛事和战队的比赛提醒，并可以在我的提醒中查看；增加赛程筛选显示功能，更方便各位刀友查看当天的比赛状况；</p>
+                <p>2.视频中心，增加赛事实时精彩短视频功能，以往专辑视频合并到“视频”标签下，增加支持多种清晰度播放、缓存功能；</p>
+                <p>3.神秘商店，重新开张，更多周边商品，更多的优惠，并支持在线支付购买啦；</p>
+                <p>4.意见反馈，修复热门列表数据重复问题；</p>
+                <p>5. 本地资料库同步至游戏6.87版本内容；</p>
+                <p>6.其他用户界面及体验优化。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2016-5-4</span> <span class="label">V3.2.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz16.jpg" tppabs="http://app.dota2.com.cn/images/web/rz16.jpg" /></div>
+            <div class="text">
+                <p>为了更好贴合用户需求，APP意见反馈功能全面升级，各位刀友可以通过点击“宝盒”进入有奖反馈模块，为国服DOTA2的建设与完美刀塔助手APP的发展添砖加瓦！</p>
+                <p>您的建议将被公开，其他刀友可以与您进行即时互动点赞，我们将定期评选优秀的建议将获得丰厚的奖励，包括：刀币、珍藏、T恤周边等，获奖名单会公布在DOTA2官网及APP当中，期待各位刀友的反馈与建议。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2016-3-23</span> <span class="label">V3.1.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz15.jpg" tppabs="http://app.dota2.com.cn/images/web/rz15.jpg" /></div>
+            <div class="text">
+                <p>1.个人账号在登录游戏、充值、消费将收到实时通知提醒，并可定制；</p>
+                <p>2.消息中心：可以接收和查看个人账号以往的操作记录；</p>
+                <p>3.修复赛事中心功能BUG。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2016-3-7</span> <span class="label">V3.0.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz14.jpg" tppabs="http://app.dota2.com.cn/images/web/rz14.jpg" /></div>
+            <div class="text">
+                <p>V3.0.0版重大功能：赛事中心上线</p>
+                <p>1.第一时间每日重要赛程播报并可以设置赛前提醒；</p>
+                <p>2.实时的比赛数据直播分析，可以观看直播和赛后视频，还可以和刀友互动发表评论；</p>
+                <p>3.全面详尽的赛事介绍，近期比赛预告、战队榜、选手榜、英雄榜实时排名；</p>
+                <p>4.战队阵容战绩资料应有尽有；</p>
+                <p>5.赛事日历，方便查找和回顾精彩赛事。</p>
+                <p>另外，资料库迁移到宝盒栏目中，请各位刀友留意。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2016-2-2</span> <span class="label">V2.9.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz13.jpg" tppabs="http://app.dota2.com.cn/images/web/rz13.jpg" /></div>
+            <div class="text">
+                <p>1.宝盒-增加“我的2015”数据展示，页面将采用更加生动有趣的形式来展现和回顾各位刀友2015年在DOTA2游戏中的成绩，DOTAER们赶快看看你在2015年的DOTA水平进步了多少吧！</p>
+                <p>2.宝盒-增加“好友PK”功能，各位刀友可以选择好友进行2015年游戏战绩的PK，越无敌越寂寞，你想来制裁我吗？</p>
+                <p>3. 我的个人中心-账号信息更详尽，实时查看账户余额和登录信息，提供充值和消费记录查询，还能找回绑定的完美通行证，让你的账户信息随时随地看。</p>
+                <p>最后衷心感谢各位刀友2015年的陪伴，在2016年新的开始，我们将会做得更好，祝大家在新的一年里，游戏超神，生活超美！</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2016-1-14</span> <span class="label">V2.8.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz7.jpg" tppabs="http://app.dota2.com.cn/images/web/rz7.jpg" /></div>
+            <div class="text">
+            <p>1.资料库-同步游戏6.86版内容</p>
+            <p>2.宝盒-插眼教学内容更新6.86版眼位</p>
+            <p>3.宝盒-特权网吧查询功能优化 </p>
+            <p>4.视频-解决不能播放的问题 </p>
+            <p>5.我的-增加支持手机令牌登录功能 </p>
+            <p>6.宝盒-官方论坛接入，方便各位刀友线下交流</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2015-11-17</span> <span class="label">V2.7.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz12.jpg" tppabs="http://app.dota2.com.cn/images/web/rz12.jpg" /></div>
+            <div class="text">
+            <p>1、“宝盒”界面调整，增加附近的特权网吧查询；</p>
+            <p>2、特权网吧可以根据系统定位查看附近的网吧，也可以根据关键字进行搜索；</p>
+            <p>3、网吧详情中可以查看公交、驾车、步行路线导航，方便选择便捷的到达方式；</p>
+            <p>4、在特权网吧中畅玩《DOTA2》即可享受特权：千余饰品免费装备、特殊战斗经验飞升。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2015-10-28</span> <span class="label">V2.6.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz11.jpg" tppabs="http://app.dota2.com.cn/images/web/rz11.jpg" /></div>
+            <div class="text">
+             <p>1、直播功能优化，添加搜索、筛选、多列表显示功能；</p>
+			<p>2、资讯新增媒体栏目，提供刀友更多游戏资讯信息；</p>
+			<p>3、app欢迎页面（闪屏）优化，添加点击功能，进入相关页面；</p>
+			<p>4、新闻内页可通过缩放手势调整字号的大小；</p>
+			<p>5、视频内页优化，视频可以在页面上进行播放，刀友可以边聊边看；</p>
+			<p>6、本地资料库同步到游戏6.85版本。</p>
+			<p>7、其他细节优化。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+	  <dl>
+        <dt slide="0"> <span class="date">2015-09-25</span> <span class="label">V2.5.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz10.jpg" tppabs="http://app.dota2.com.cn/images/web/rz10.jpg" /></div>
+            <div class="text">
+             <p>1、资讯栏目和视频栏目（除直播）可以发表评论；</p>
+			<p>2、我的栏目可以查看自己的评论和别人回复我的评论；</p>
+			<p>3、修复个别设备缓存的视频偶尔打不开的BUG；</p>
+			<p>4、登录接口优化，请各位刀友务必更新，否则旧版将不能使用；</p>
+			<p>5、其他用户界面及体验优化。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+	  <dl>
+        <dt slide="0"> <span class="date">2015-07-27</span> <span class="label">V2.4</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz9.jpg" tppabs="http://app.dota2.com.cn/images/web/rz9.jpg" /></div>
+            <div class="text">
+             <p>2015年8月《DOTA2》TI5即将在西雅图钥匙球馆进行。不能亲临现场？不怕！手机也能看直播，我们将为刀友们呈现一场惊心动魄的《DOTA2》比赛，一同为最喜爱的战队呐喊助威！</p>
+             <p>V2.4更新内容如下：</p>
+             <p>1、TI5期间可以观看比赛直播</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2015-07-1</span> <span class="label">V2.3</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz4.jpg" tppabs="http://app.dota2.com.cn/images/web/rz4.jpg" /></div>
+            <div class="text">
+                <P>V2.3版更新内容如下：</P>
+				<p>1、本地资料库同步更新到6.84的游戏内容，并把物品里“神秘失踪”的防具找回来了；</p>
+<p>2、视频栏目BUG修复，IOS7的设备可以离线观看缓存好的视频了，视频缓存进度条加入百分比显示，进度更清晰明了；</p>
+<p>3、个人中心收藏规则优化：本地收藏的数据将会同步到登录后的账号中，注销后将清空本地收藏，不会再导致账号的无关收藏数据越来越多的问题了；收藏的物品图标显示BUG修复；</p>
+<p>4、修复闪退问题，用户界面及体验优化。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+	  <dl slide="0">
+        <dt slide="1"> <span class="date">2015-04-29</span> <span class="label">V2.1</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz8.jpg" tppabs="http://app.dota2.com.cn/images/web/rz8.jpg" /></div>
+            <div class="text">
+                <p>为庆祝4月28日完美世界《Dota2》开测两周年，特别更新V2.1版：</p>
+<p>1、【回顾我的2014】专题上线，登录后即可查看《DOTA2》中国区服务器的个人数据，同时分享还有机会获得豪礼。</p>
+<p>2、二维码扫描，可支持直接扫描登录页面和扫描相册中的二维码，方便浏览网页。</p>
+<p>3、修复已知BUG。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2015-04-28</span> <span class="label">V2.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz7.jpg" tppabs="http://app.dota2.com.cn/images/web/rz7.jpg" /></div>
+            <div class="text">
+                <p>完美刀塔助手迎来有史以来最大更新V2.0！</p>
+                <p>1、全新扁平化界面，优化布局，更方便内容的浏览。</p>
+                <p>2、个人中心开放，用完美通行证登录马上查看个人DOTA2战绩，游戏好友等信息。</p>
+                <p>3、刀友个人定制，更换喜欢的背景封面，收藏自己喜欢的视频、资讯、英雄、物品。</p>
+                <p>4、原创DOTA2主题壁纸，下载到手机，尽在完美刀塔助手。</p>
+                <p>5、视频缓存，从此您可以把喜欢的集锦、比赛、解说视频装进口袋里了。</p>
+                <p>6、多处细节的优化，只为刀友的极致体验。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2014-10-27</span> <span class="label">V1.5</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz5.jpg" tppabs="http://app.dota2.com.cn/images/web/rz5.jpg" /></div>
+            <div class="text">
+              <p>iOS8系统兼容性问题已经解决，最困扰大家的观看视频不能横屏问题已修复了。增加了下拉刷新新闻、视频更新量提示等人性化体验，宝盒栏目加入插眼教学，这个版本小小的改动为大家带来更多的良好体验。</p>
+              <p>1、兼容iOS8系统，可以横屏观看视频了！</p>
+              <p>2、专门适配iPad使用！iPad版可获得最佳体验并支持高清视频选择！</p>
+              <p>3、宝盒栏目加入插眼教学。</p>
+              <p>4、调整了新闻及视频列表间距，看起来更加舒适。</p>
+              <p>5、给包含视频的新闻增加了视频标识，一目了然。</p>
+              <p>6、新闻和视频增加已读提示。</p>
+              <p>7、新闻和视频列表下拉刷新时提示更新数量。</p>
+              <p>8、其他体验优化和已知BUG的修复。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2014-09-12</span> <span class="label">V1.4</span> <span class="arrow"></span></dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz4.jpg" tppabs="http://app.dota2.com.cn/images/web/rz4.jpg" /></div>
+            <div class="text">
+              <p>现在资料库中的英雄和物品，包括英雄的基本属性、技能介绍、加点推荐、出装推荐都可以离线查看了，没有网络也不用担心。并且新闻和视频详细页的图片文字在加载过之后，也能离线浏览，为玩家节约了不少的流量。大家期待已久的战绩查询功能也上线了!用自己的刀塔ID(推荐)或者STEAMID进行搜索，在手机上就能查看到相关信息。</p>
+              <p>1、资料库现在可以离线查看了!</p>
+              <p>2、英雄信息提供了动态头像(支持iOS7.0以上)!</p>
+              <p>3、分享渠道增加了QQ好友及新浪微博!</p>
+              <p>4、新闻详情页增加了缓存机制，打开之后离线也能浏览!</p>
+              <p>5、其他体验优化和已知BUG的修复。</p>
+              <p>6、宝盒栏目增加战绩查询功能。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2014-08-19</span> <span class="label">V1.3</span> <span class="arrow"></span></dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz3.jpg" tppabs="http://app.dota2.com.cn/images/web/rz3.jpg" /></div>
+            <div class="text">
+              <p>由于视频源的问题，导致播放视频跳出，我们深表抱歉，但始终在努力修复。此版已经进行了修复，并优化了一系列的内容，希望玩家尽快更新。</p>
+              <p>1、宝盒栏目可以下拉刷新了。</p>
+              <p>2、宝盒加入了今日特价和神秘商店。</p>
+              <p>3、现在可以分享给微信好友了。</p>
+              <p>4、二级页可以通过滑动的方式返回了。</p>
+              <p>5、设置的UI进行了优化。</p>
+              <p>6、解决了视频无法横屏播放的问题。</p>
+              <p>7、彻底解决了视频播放跳出的问题。</p>
+              <p>8、新闻配图现在可以下载到手机了。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2014-07-25</span> <span class="label">V1.2</span> <span class="arrow"></span></dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz2.jpg" tppabs="http://app.dota2.com.cn/images/web/rz2.jpg" /></div>
+            <div class="text">
+              <p>软件上架近一个月，数据良好，很多玩家向我们反馈了一些有建设性的意见和BUG，本版本在短期完成，统一修复并提升用户体验，力求快速上架。下一个版本会增加更多功能，目前正在开发之中。</p>
+              <p>1、优化新闻列表文字长度显示、增加左右滑动滑屏功能。</p>
+              <p>2、增加新闻下拉刷新及上拉加载更多功能。</p>
+              <p>3、增加新闻未读提示功能。</p>
+              <p>4、优化了视频列表流畅度及左右滑屏功能。</p>
+              <p>5、增加看视频在流量模式的友情提醒功能及功能开关。</p>
+              <p>6、修复了若干已知BUG。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl class="last">
+        <dt slide="0"> <span class="date">2014-06-26</span> <span class="label">V1.0</span> <span class="arrow"></span></dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz1.jpg" tppabs="http://app.dota2.com.cn/images/web/rz1.jpg" /></div>
+            <div class="text">
+              <p>由完美世界官方开发的DOTA2手机APP软件，初期版本完成度较低，希望大家支持</p>
+              <p>完美刀塔iOS版本正式发布。</p>
+              <p>亲爱的玩家，如果你看到这个页面，很显然您很关注这个软件，感谢您的支持，如有更多新奇的想法和建议，又或是发现了BUG，欢迎加入产品QQ群：180668423，与产品经理面对面，共同改进产品！</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    </div>
+    <!-- android -->
+    <div class="update_log">
+    <dl class="on">
+        <dt slide="1"> <span class="date">2016-7-19</span> <span class="label">V3.3.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz17.jpg" tppabs="http://app.dota2.com.cn/images/web/rz17.jpg" /></div>
+            <div class="text">
+                <p>为方便各位刀友观看TI6精彩赛况，3.3.0版特别加入以下功能，欢迎更新体验：</p>
+                <p>1.赛事中心，增加订阅赛事和战队的比赛提醒，并可以在我的提醒中查看；增加赛程筛选显示功能，更方便各位刀友查看当天的比赛状况；</p>
+                <p>2.视频中心，增加赛事实时精彩短视频功能，以往专辑视频合并到“视频”标签下，增加支持多种清晰度播放功能；</p>
+                <p>3.神秘商店，重新开张，更多周边商品，更多的优惠，并支持在线支付购买啦；</p>
+                <p>4.意见反馈，增加小图点击查看大图的功能，修复热门列表数据重复问题；</p>
+                <p>5.好友PK，修复不能读取战绩数据的问题；</p>
+                <p>6.其他用户界面及体验优化。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2016-5-6</span> <span class="label">V3.2.1</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz16.jpg" tppabs="http://app.dota2.com.cn/images/web/rz16.jpg" /></div>
+            <div class="text">
+                <p>为了更好贴合用户需求，APP意见反馈功能全面升级，各位刀友可以通过点击“宝盒”进入有奖反馈模块，为国服DOTA2的建设与完美刀塔助手APP的发展添砖加瓦！</p>
+                <p>您的建议将被公开，其他刀友可以与您进行即时互动点赞，我们将定期评选优秀的建议将获得丰厚的奖励，包括：刀币、珍藏、T恤周边等，获奖名单会公布在DOTA2官网及APP当中，期待各位刀友的反馈与建议。</p>
+                <p>本地资料库-同步游戏6.87版内容</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2016-4-8</span> <span class="label">V3.1.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz15.jpg" tppabs="http://app.dota2.com.cn/images/web/rz15.jpg" /></div>
+            <div class="text">
+                <p>1.我的个人中心-账号信息更详尽，实时查看账户余额和登录信息，提供充值和消费记录查询，还能找回绑定的完美通行证，让你的账户信息随时随地看。</p>
+                <p>2.个人账号在登录游戏、充值、消费将收到实时通知提醒，并可定制；</p>
+                <p>3.消息中心：可以接收和查看个人账号以往的操作记录。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2016-3-7</span> <span class="label">V3.0.1</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz14.jpg" tppabs="http://app.dota2.com.cn/images/web/rz14.jpg" /></div>
+            <div class="text">
+                <p>修复赛事中心相关功能BUG</p>
+                <p>修复无数据网络状态下，无法查看宝盒资料库入口的BUG；</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2016-3-1</span> <span class="label">V3.0.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz14.jpg" tppabs="http://app.dota2.com.cn/images/web/rz14.jpg" /></div>
+            <div class="text">
+                <p>V3.0.0版重大功能：赛事中心上线</p>
+                <p>1.第一时间每日重要赛程播报并可以设置赛前提醒；</p>
+                <p>2.实时的比赛数据直播分析，可以观看直播和赛后视频，还可以和刀友互动发表评论；</p>
+                <p>3.全面详尽的赛事介绍，近期比赛预告、战队榜、选手榜、英雄榜实时排名；</p>
+                <p>4.战队阵容战绩资料应有尽有；</p>
+                <p>5.赛事日历，方便查找和回顾精彩赛事。</p>
+                <p>另外，资料库迁移到宝盒栏目中，请各位刀友留意。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2016-2-3</span> <span class="label">V2.9.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz13.jpg" tppabs="http://app.dota2.com.cn/images/web/rz13.jpg" /></div>
+            <div class="text">
+                <p>1.宝盒-增加“我的2015”数据展示，页面将采用更加生动有趣的形式来展现和回顾各位刀友2015年在DOTA2游戏中的成绩，DOTAER们赶快看看你在2015年的DOTA水平进步了多少吧！</p>
+                <p>2.宝盒-增加“好友PK”功能，各位刀友可以选择好友进行2015年游戏战绩的PK，越无敌越寂寞，你想来制裁我吗？</p>
+                <p>最后衷心感谢各位刀友2015年的陪伴，在2016年新的开始，我们将会做得更好，祝大家在新的一年里，游戏超神，生活超美！</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2016-1-14</span> <span class="label">V2.8.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz7.jpg" tppabs="http://app.dota2.com.cn/images/web/rz7.jpg" /></div>
+            <div class="text">
+            <p>1.资料库-同步游戏6.86版内容</p>
+            <p>2.宝盒-插眼教学内容更新6.86版眼位</p>
+            <p>3.宝盒-特权网吧查询功能优化 </p>
+            <p>4.视频-解决不能播放的问题 </p>
+            <p>5.我的-增加支持手机令牌登录功能 </p>
+            <p>6.宝盒-官方论坛接入，方便各位刀友线下交流</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2015-11-17</span> <span class="label">V2.7.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz12.jpg" tppabs="http://app.dota2.com.cn/images/web/rz12.jpg" /></div>
+            <div class="text">
+                    <p>1、“宝盒”界面调整，增加附近的特权网吧查询；</p>
+                    <p>2、特权网吧可以根据系统定位查看附近的网吧，也可以根据关键字进行搜索；</p>
+                    <p>3、网吧详情中可以查看公交、驾车、步行路线导航，方便选择便捷的到达方式；</p>
+                    <p>4、在特权网吧中畅玩《DOTA2》即可享受特权：千余饰品免费装备、特殊战斗经验飞升。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2015-10-28</span> <span class="label">V2.6.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz11.jpg" tppabs="http://app.dota2.com.cn/images/web/rz11.jpg" /></div>
+            <div class="text">
+                    <p>1、直播功能优化，添加搜索、筛选、多列表显示功能；</p>
+<p>2、资讯新增媒体栏目，提供刀友更多游戏资讯信息；</p>
+<p>3、app欢迎页面（闪屏）优化，添加点击功能，进入相关页面；</p>
+<p>4、本地资料库同步到游戏6.85版本。</p>
+<p>5、其他细节优化。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+	<dl>
+        <dt slide="0"> <span class="date">2015-09-30</span> <span class="label">V2.5.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz10.jpg" tppabs="http://app.dota2.com.cn/images/web/rz10.jpg" /></div>
+            <div class="text">
+                    <p>1、资讯栏目和视频栏目（除直播）可以发表评论；</p>
+<p>2、我的栏目可以查看自己的评论和别人回复我的评论；</p>
+<p>3、视频缓存功能，从此您可以把喜欢的集锦、比赛、解说视频装进口袋里了。</p>
+<p>4、收藏功能，可以收藏自己喜欢的视频、资讯、英雄、物品。</p>
+<p>5、二维码扫描功能，可支持直接扫描登录页面和扫描相册中的二维码，方便浏览网页。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2015-07-24</span> <span class="label">V2.0.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz9.jpg" tppabs="http://app.dota2.com.cn/images/web/rz9.jpg" /></div>
+            <div class="text">
+                <p>2015年8月《DOTA2》TI5即将在西雅图钥匙球馆进行，为此完美刀塔助手特别进行最大更新V2.0.0！</p>
+                <p>1、手机看直播，TI5不能亲临现场？不怕！手机也能看直播，我们将为刀友们呈现一场惊心动魄的《DOTA2》比赛，一同为最喜爱的战队呐喊助威！</p>
+                <p>2、全新扁平化界面，优化布局，更方便内容的浏览。</p>
+                <p>3、个人中心开放，用完美通行证登录马上查看个人DOTA2战绩，游戏好友等信息。</p>
+                <p>4、刀友个人定制，更换喜欢的个性背景封面。</p>
+                <p>5、原创DOTA2主题壁纸，下载到手机，也可直接设置为屏保壁纸。</p>
+                <p>6、多处细节的优化，只为刀友的极致体验。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2015-05-14</span> <span class="label">V1.0.7</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz4.jpg" tppabs="http://app.dota2.com.cn/images/web/rz4.jpg" /></div>
+            <div class="text">
+              <p>紧急修复视频栏目不能播放视频的BUG</p>
+			  <p>资料库同步至DOTA2 6.84游戏版本</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+	<dl>
+        <dt slide="0"> <span class="date">2015-05-14</span> <span class="label">V1.0.6</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz4.jpg" tppabs="http://app.dota2.com.cn/images/web/rz4.jpg" /></div>
+            <div class="text">
+              <p>V1.0.6版，资料库同步至DOTA2 6.84游戏版本：</p>
+<p>1、英雄的数据改动。</p>
+<p>2、新增物品。</p>
+<p>3、物品改动和升级。</p>
+<p>4、6.84游戏版本改动详情请见:<a href="javascript:if(confirm(%27http://www.dota2.com.cn/684/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.dota2.com.cn/684/%27" tppabs="http://www.dota2.com.cn/684/" target="_blank">http://www.dota2.com.cn/684/</a>。</p>
+
+
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+	<dl>
+        <dt slide="0"> <span class="date">2015-01-05</span> <span class="label">V1.0.5</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz6.jpg" tppabs="http://app.dota2.com.cn/images/web/rz6.jpg" /></div>
+            <div class="text">
+              <p>在元旦节后为刀友奉上完美刀塔新版本，资料库同步至DOTA2 6.83，对整体细节体验进行了一些调整。</p>
+<p>V1.0.5功能简介：</p>
+<p>1、资料库同步至DOTA2 6.83，并且修复了所有英雄的数据。</p>
+<p>2、视频类新闻增加小图标，一目了然。</p>
+<p>3、调整新闻及视频缩略图边距，提升阅览体验。</p>
+<p>4、修复已知BUG。</p>
+
+
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl >
+        <dt slide="0"> <span class="date">2014-11-28</span> <span class="label">V1.0.4</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz1.jpg" tppabs="http://app.dota2.com.cn/images/web/rz1.jpg" /></div>
+            <div class="text">
+              <p>在收集了刀友们的大量反馈之后，对代码进行了优化，整体性能得到大幅提升。同时对一些细节体验进行了改进，相信这个版本会给各位刀友带来不一样的感受。</p>
+<p>V1.0.4功能简介：</p>
+<p>1、整体性能大幅提升，操作体验更加流畅。</p>
+<p>2、兼容更低版本（2.2、2.3）的系统，要获得最好的体验还请将系统升级到4.0以上。</p>
+<p>3、解决之前版本的乱码、视频无法全屏等问题。</p>
+<p>4、对资料库进行了性能优化。</p>
+<p>5、优化列表的下拉刷新，增加新闻和视频更新数量提示。</p>
+<p>6、资料库增加新英雄“神谕者”。</p>
+
+
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+     <dl>
+        <dt slide="0"> <span class="date">2014-11-4</span> <span class="label">V1.0.1</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz1.jpg" tppabs="http://app.dota2.com.cn/images/web/rz1.jpg" /></div>
+            <div class="text">
+              <p>「完美刀塔」APP安卓版自10月28日发布以来，热情的DOTA2玩家纷纷下载安装，并提出了很多宝贵的意见。目前安卓版还在测试阶段，面临的问题也比较多，初期我们将优先解决影响各位玩家体验的BUG，让「完美刀塔」能够兼容大部分的机型。</p>
+<p>V1.0.1修复了如下问题：</p>
+<p>1、解决了绝大多数机型视频无法全屏播放的问题，部分机型继续修复中。</p>
+<p>2、修复在二级页面，点击返回键退出的问题。</p>
+
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    	
+      <dl class="last">
+        <dt slide="0"> <span class="date">2014-10-28</span> <span class="label">V1.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz1.jpg" tppabs="http://app.dota2.com.cn/images/web/rz1.jpg" /></div>
+            <div class="text">
+              <p>DOTA2玩家期待已久的「完美刀塔」安卓版发布了，《完美刀塔》是完美世界出品的DOTA2辅助工具，专为热爱DOTA和DOTA2的玩家开发。提供包括DOTA2资讯、DOTA2英雄资料、物品合成、查战绩、DOTA2视频、直播等功能，后续版本将包含更多的与DOTA2玩家交互与优惠活动，喜爱DOTA2的玩家，不容错过！</p>
+              <p>1、DOTA2资讯：包括热点消息、官方新闻、赛事资讯、版本公告，为您提供第一手的资讯。</p>
+              <p>2、DOTA2资料库：为您提供最新最全的英雄属性、出装、技能、加点、攻略内容，以及所有装备、物品的合成与搭配信息，助您快速上手游戏。</p>
+              <p>3、DOTA2宝盒：查战绩、查特价、学插眼，多种趣味活动，让您在闲暇之余也能消磨时间，体验DOTA2的娱乐精神。</p>
+              <p>4、DOTA2视频：集锦、直播、解说、赛事，多种选择，是您学习技术、放松身心的最好选择。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+	</div>
+	   <!-- window -->
+    <div class="update_log">
+    <dl class="on">
+        <dt slide="1"> <span class="date">2016-4-28</span> <span class="label">V2.8.5</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz1.jpg" tppabs="http://app.dota2.com.cn/images/web/rz1.jpg" /></div>
+            <div class="text">
+            <p>1.修复登录失败的bug</p>
+            <p>2.资料库-修复本地资料库部分数据为空的问题，增加重置资料库功能</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2016-1-14</span> <span class="label">V2.8.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz7.jpg" tppabs="http://app.dota2.com.cn/images/web/rz7.jpg" /></div>
+            <div class="text">
+            <p>1.资料库-同步游戏6.86版内容</p>
+            <p>2.宝盒-插眼教学内容更新6.86版眼位</p>
+            <p>3.宝盒-特权网吧查询功能优化 </p>
+            <p>4.视频-解决不能播放的问题 </p>
+            <p>5.我的-增加支持手机令牌登录功能 </p>
+            <p>6.宝盒-官方论坛接入，方便各位刀友线下交流</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2015-11-17</span> <span class="label">V2.7.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz12.jpg" tppabs="http://app.dota2.com.cn/images/web/rz12.jpg" /></div>
+            <div class="text">
+                <p>1、“宝盒”界面调整，增加附近的特权网吧查询；</p>
+                <p>2、特权网吧可以根据系统定位查看附近的网吧，也可以根据关键字进行搜索；</p>
+                <p>3、网吧详情中可以查看公交、驾车、步行路线导航，方便选择便捷的到达方式；</p>
+                <p>4、在特权网吧中畅玩《DOTA2》即可享受特权：千余饰品免费装备、特殊战斗经验飞升；</p>
+                <p>5、UWP版增加动态磁贴，让你的应用动起来。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2015-10-28</span> <span class="label">V2.6.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz11.jpg" tppabs="http://app.dota2.com.cn/images/web/rz11.jpg" /></div>
+            <div class="text">
+                <p>1、直播功能优化，添加搜索、筛选、多列表显示功能；</p>
+<p>2、资讯新增媒体栏目，提供刀友更多游戏资讯信息；</p>
+<p>3、app欢迎页面（闪屏）优化，添加点击功能，进入相关页面；</p>
+<p>4、本地资料库同步到游戏6.85版本。</p>
+<p>5、其他细节优化。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+	<dl>
+        <dt slide="0"> <span class="date">2015-09-23</span> <span class="label">V2.5.2</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz10.jpg" tppabs="http://app.dota2.com.cn/images/web/rz10.jpg" /></div>
+            <div class="text">
+                <p>win10 v2.5.2更新内容：</p>
+				<p>1.资讯和视频栏目（除直播）可发表评论</p>
+				<p>2.我的栏目可以查看自己的评论和别人回复我的评论；</p>
+				<p>3.首页导航布局重新设计，支持列表下拉刷新</p>
+				<p>4.优化播放体验</p>
+				<p>4.其他用户界面及体验优化</p>
+				<p>重要提醒：由于系统环境更新，为确保功能正常使用，建议您先卸载旧版本，再安装到最新版本。</p>
+				<p>&nbsp;</p>
+				<p>wp8.1 v2.5.0更新内容：</p>
+				<p>1.资讯和视频栏目（除直播）可发表评论</p>
+				<p>2.我的栏目可以查看自己的评论和别人回复我的评论；</p>
+				<p>3.其他用户界面及体验优化</p>
+
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+	  <dl>
+        <dt slide="0"> <span class="date">2015-08-12</span> <span class="label">V2.0.3</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz1.jpg" tppabs="http://app.dota2.com.cn/images/web/rz1.jpg" /></div>
+            <div class="text">
+                <p>「完美刀塔助手」Win10 V2.0.3  20150812</p>
+                <p>1、解决小分辨率屏幕显示的问题</p>
+                <p>2、解决宽屏切换到窄屏模式的问题</p>
+                <p>&nbsp;</p>
+                <p>「完美刀塔助手」Win10版首发 V2.0.2  20150811</p>
+                <p>1、DOTA2资讯：包括热点消息、官方新闻、赛事资讯、版本公告，为您提供第一手的资讯。</p>
+                <p>2、DOTA2资料库：为您提供最新最全的英雄属性、出装、技能、加点、攻略内容，以及所有装备、物品的合成与搭配信息，助您快速上手游戏。</p>
+                <p>3、DOTA2宝盒：查战绩、查特价、学插眼，多种趣味活动，让您在闲暇之余也能消磨时间，体验DOTA2的娱乐精神。</p>
+                <p>4、DOTA2视频：集锦、直播、解说、赛事，多种选择，是您学习技术、放松身心的最好选择。</p>
+                <p>5、DOTA2个人中心：云收藏、云设置，查询战绩，关注好友动态。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2015-08-11</span> <span class="label">wp V2.0.1.1</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz1.jpg" tppabs="http://app.dota2.com.cn/images/web/rz1.jpg" /></div>
+            <div class="text">
+                <p>1、全部资讯内容支持多样式布局排版，展现形式更加生动活泼</p>
+                <p>2、支持资讯内容进行内部页面导航</p>
+                <p>3、修复推送通知的Bug</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2015-07-24</span> <span class="label">wp V2.0.1.0</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz9.jpg" tppabs="http://app.dota2.com.cn/images/web/rz9.jpg" /></div>
+            <div class="text">
+             <p>2015年8月《DOTA2》TI5即将在西雅图钥匙球馆进行。不能亲临现场？不怕！手机也能看直播，我们将为刀友们呈现一场惊心动魄的《DOTA2》比赛，一同为最喜爱的战队呐喊助威！</p>
+             <p>V2.0.1.0更新内容如下：</p>
+             <p>1、TI5期间可以观看比赛直播</p>
+             <p>2、修复资料库在Win10设备上安装后无法解压的问题</p>
+             <p>3、完善UI，适配Win10 Mobile，并修复已知Bug</p>
+             <p>我们团队的工程师正在紧锣密鼓开发Win10 UWP版本，不久将会面世，欢迎大家继续支持我们！</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2015-04-30</span> <span class="label">wp V1.0.0.6</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz8.jpg" tppabs="http://app.dota2.com.cn/images/web/rz8.jpg" /></div>
+            <div class="text">
+             <p>为庆祝4月28日完美世界《DOTA2》开测两周年，V1.0.0.6版更新内容如下：</p>
+<p>1、《回顾我的2014》专题上线，登录后即可查看《DOTA2》中国区服务器的个人数据，同时分享还有机会获得豪礼</p>
+<p>2、二维码扫描，可支持直接扫描登录页面的二维码，方便浏览网页</p>
+<p>3、支持密保卡登录</p>
+<p>4、完善功能细节以及修复已知Bug</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl>
+        <dt slide="0"> <span class="date">2015-04-07</span> <span class="label">wp V1.0.0.5</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz7.jpg" tppabs="http://app.dota2.com.cn/images/web/rz7.jpg" /></div>
+            <div class="text">
+              <p>1、新增消息推送功能，支持资讯、视频、宝盒、英雄、物品等不同格式的消息</p>
+    <p>2、新增资讯多种样式支持</p>
+    <p>3、新增视频缓存管理功能 </p>
+    <p>4、新增刀塔壁纸功能 </p>
+    <p>5、功能细节完善以及对已知Bug的修复</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2015-03-02</span> <span class="label">wp V1.0.0.4</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz5.jpg" tppabs="http://app.dota2.com.cn/images/web/rz5.jpg" /></div>
+            <div class="text">
+              <p>1、实现用户登录信息缓存功能</p>
+    <p>2、实现英雄、物品Pin到桌面功能</p>
+    <p>3、增加资料库更新日志入口</p>
+    <p>4、资料库浏览新增回退键</p>
+    <p>5、页面增加适量动画</p>
+    <p>6、上拉数据列表，加载更多时增加相应的提示</p>
+    <p>7、修复与不同系统设备（IOS、Andriod）进行同步时数据异常的Bug</p>
+    <p>8、修复用户需要频繁重新登陆的Bug</p>
+    <p>9、修复部分机型播放视频时出现绿线的Bug</p>
+    <p>10、页面UI细节进一步完善</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2015-02-04</span> <span class="label">wp V1.0.0.3</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz4.jpg" tppabs="http://app.dota2.com.cn/images/web/rz4.jpg" /></div>
+            <div class="text">
+              <p>◆正式版发布了！这是Windows Phone刀友的专属APP！</p>
+    <p>在首发版的功能基础上，修复了更多BUG，已将各项体验调整至最优。</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+      <dl>
+        <dt slide="0"> <span class="date">2015-01-27</span> <span class="label">wp V1.0.0.2</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz3.jpg" tppabs="http://app.dota2.com.cn/images/web/rz3.jpg" /></div>
+            <div class="text">
+              <p>◆修复已知BUG</p>
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+    <dl class="last">
+        <dt slide="0"> <span class="date">2015-01-27</span> <span class="label">wp V1.0.0.1</span> <span class="arrow"></span> </dt>
+        <dd>
+          <div class="cont">
+            <div class="pic"><img src="rz1.jpg" tppabs="http://app.dota2.com.cn/images/web/rz1.jpg" /></div>
+            <div class="text">
+              <p>◆Windows Phone的第一个版本，专为WP刀友定制的专属APP诞生了！</p>
+    <p>V1.0.0.1功能简介：</p>
+    <p>1、新闻资讯，随时随地了解DOTA2最新动态，快人一步。</p>
+    <p>2、离线资料库，无需流量就可查阅DOTA2英雄、物品资料。</p>
+    <p>3、宝盒，各类实用的攻略、小工具。</p>
+    <p>4、视频，为刀友带来集锦、赛事、解说视频，以及精彩直播。</p>
+    <p>5、我的刀塔，用完美账号登录即可查看自己的DOTA2好友、战绩。同时还可以进行云收藏、更换自己喜欢的背景封面。</p>
+
+
+            </div>
+            <div class="clear"></div><span class="arrow"></span> </div>
+        </dd>
+      </dl>
+     
+    </div>
+  </div>
+<script type="text/javascript" src="jquery.scrollTo-min.js" tppabs="http://app.dota2.com.cn/js/jquery.scrollTo-min.js"></script> 
+<script type="text/javascript" src="jquery.mousewheel.js" tppabs="http://app.dota2.com.cn/js/jquery.mousewheel.js"></script> 
+<script type="text/javascript" src="wmshare.js" tppabs="http://www.wanmei.com/public/js/wmshare.js" share="{type:'none'}"></script> 
+<script>	
+	var shareUrl = location.href,
+		shareTitle = '#完美刀塔#完美官方出Dota2 APP啦，刚装了一个很牛逼啊！官方公告、英雄攻略、视频也很多！刀友们路上也能离线查阅资料了！支持iPhone、iPad和Android';
+	function qqZone(url,title,pic,summary){
+		window.open('http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=' + url + '&title=' + title + '&pics=' + pic + '&summary=' + summary);
+	}
+	$('#share_sina').click(function(){
+		wmShare.sinaT(shareUrl,shareTitle,'share_pic-1.jpg'/*tpa=http://www.dota2.com.cn/event/201406/app/images/web/share_pic.jpg*/);
+	});
+	$('#share_qq').click(function(){
+		wmShare.qqT(shareUrl,shareTitle,'share_pic-1.jpg'/*tpa=http://www.dota2.com.cn/event/201406/app/images/web/share_pic.jpg*/);
+	});
+	$('#share_zone').click(function(){
+		wmShare.qqZone(shareUrl,shareTitle,'share_pic-1.jpg'/*tpa=http://www.dota2.com.cn/event/201406/app/images/web/share_pic.jpg*/);
+		//qqZone(shareUrl,'刀塔小伙伴们的专属APP开放下载了','share_pic-1.jpg'/*tpa=http://www.dota2.com.cn/event/201406/app/images/web/share_pic.jpg*/,'#完美刀塔#完美官方出Dota2 APP啦，刚装了一个很牛逼啊！官方公告、英雄攻略、视频也很多！刀友们路上也能离线查阅资料了！支持iPhone、iPad和Android');
+	});
+	$('#share_baidu').click(function(){
+		wmShare.baiduT(shareUrl);
+	});
+</script>
+<div class="wm-public" analytics="{single:['app201406appzs3746']}"></div>
+</body>
+</html>
